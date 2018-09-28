@@ -617,7 +617,7 @@ public final class Account {
 //            return account;
 //        }
 //        throw new RuntimeException("DUPLICATE KEY for account " + Long.toUnsignedString(account.getId())
-//                + " existing key " + com.coinomi.core.coins.nxt.Convert.toHexString(account.getPublicKey()) + " new key " + com.coinomi.core.coins.nxt.Convert.toHexString(publicKey));
+//                + " existing key " + com.araguaneybits.core.coins.nxt.Convert.toHexString(account.getPublicKey()) + " new key " + com.araguaneybits.core.coins.nxt.Convert.toHexString(publicKey));
 //    }
 
     public static long getId(byte[] publicKey) {
@@ -769,7 +769,7 @@ public final class Account {
 //    private long activeLesseeId;
 //
 //    private Account(long id) {
-//        if (id != com.coinomi.core.coins.nxt.Crypto.rsDecode(com.coinomi.core.coins.nxt.Crypto.rsEncode(id))) {
+//        if (id != com.araguaneybits.core.coins.nxt.Crypto.rsDecode(com.araguaneybits.core.coins.nxt.Crypto.rsEncode(id))) {
 //            Logger.logMessage("CRITICAL ERROR: Reed-Solomon encoding fails for " + id);
 //        }
 //        this.id = id;
@@ -815,8 +815,8 @@ public final class Account {
 //    }
 //
 //    void setAccountInfo(String name, String description) {
-//        name = com.coinomi.core.coins.nxt.Convert.emptyToNull(name.trim());
-//        description = com.coinomi.core.coins.nxt.Convert.emptyToNull(description.trim());
+//        name = com.araguaneybits.core.coins.nxt.Convert.emptyToNull(name.trim());
+//        description = com.araguaneybits.core.coins.nxt.Convert.emptyToNull(description.trim());
 //        AccountInfo accountInfo = getAccountInfo();
 //        if (accountInfo == null) {
 //            accountInfo = new AccountInfo(id, name, description);
@@ -851,18 +851,18 @@ public final class Account {
 //            throw new IllegalArgumentException("Recipient account doesn't have a public key set");
 //        }
 //        if (compress && data.length > 0) {
-//            data = com.coinomi.core.coins.nxt.Convert.compress(data);
+//            data = com.araguaneybits.core.coins.nxt.Convert.compress(data);
 //        }
-//        return EncryptedData.encrypt(data, com.coinomi.core.coins.nxt.Crypto.getPrivateKey(senderSecretPhrase), getPublicKey());
+//        return EncryptedData.encrypt(data, com.araguaneybits.core.coins.nxt.Crypto.getPrivateKey(senderSecretPhrase), getPublicKey());
 //    }
 //
 //    public byte[] decryptFrom(EncryptedData encryptedData, String recipientSecretPhrase, boolean uncompress) {
 //        if (getPublicKey() == null) {
 //            throw new IllegalArgumentException("Sender account doesn't have a public key set");
 //        }
-//        byte[] decrypted = encryptedData.decrypt(com.coinomi.core.coins.nxt.Crypto.getPrivateKey(recipientSecretPhrase), getPublicKey());
+//        byte[] decrypted = encryptedData.decrypt(com.araguaneybits.core.coins.nxt.Crypto.getPrivateKey(recipientSecretPhrase), getPublicKey());
 //        if (uncompress && decrypted.length > 0) {
-//            decrypted = com.coinomi.core.coins.nxt.Convert.uncompress(decrypted);
+//            decrypted = com.araguaneybits.core.coins.nxt.Convert.uncompress(decrypted);
 //        }
 //        return decrypted;
 //    }

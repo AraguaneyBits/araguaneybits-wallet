@@ -121,7 +121,7 @@ public class BalanceFragment extends WalletFragment implements LoaderCallbacks<L
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.coinomi.wallet.ui.AccountFragment
+        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
         setHasOptionsMenu(true);
 
         if (getArguments() != null) {

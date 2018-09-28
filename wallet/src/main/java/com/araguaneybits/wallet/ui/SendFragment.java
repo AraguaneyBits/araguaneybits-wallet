@@ -205,7 +205,7 @@ public class SendFragment extends WalletFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.coinomi.wallet.ui.AccountFragment
+        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
         setHasOptionsMenu(true);
 
         Bundle args = getArguments();

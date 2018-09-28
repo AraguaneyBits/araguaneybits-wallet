@@ -9,7 +9,7 @@ public final class Protos {
       com.google.protobuf.ExtensionRegistry registry) {
   }
   public interface PeerAddressOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.PeerAddress)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.PeerAddress)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -40,11 +40,11 @@ public final class Protos {
     long getServices();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.PeerAddress}
+   * Protobuf type {@code com.araguaneybits.core.protos.PeerAddress}
    */
   public static final class PeerAddress extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.PeerAddress)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.PeerAddress)
       PeerAddressOrBuilder {
     // Use PeerAddress.newBuilder() to construct.
     private PeerAddress(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -330,11 +330,11 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.PeerAddress}
+     * Protobuf type {@code com.araguaneybits.core.protos.PeerAddress}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.PeerAddress)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.PeerAddress)
         com.araguaneybits.core.protos.Protos.PeerAddressOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -348,7 +348,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.PeerAddress.class, com.araguaneybits.core.protos.Protos.PeerAddress.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.PeerAddress.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.PeerAddress.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -577,7 +577,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.PeerAddress)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.PeerAddress)
     }
 
     static {
@@ -585,11 +585,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.PeerAddress)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.PeerAddress)
   }
 
   public interface EncryptedDataOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.EncryptedData)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.EncryptedData)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -627,11 +627,11 @@ public final class Protos {
     com.google.protobuf.ByteString getEncryptedPrivateKey();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.EncryptedData}
+   * Protobuf type {@code com.araguaneybits.core.protos.EncryptedData}
    */
   public static final class EncryptedData extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.EncryptedData)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.EncryptedData)
       EncryptedDataOrBuilder {
     // Use EncryptedData.newBuilder() to construct.
     private EncryptedData(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -901,11 +901,11 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.EncryptedData}
+     * Protobuf type {@code com.araguaneybits.core.protos.EncryptedData}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.EncryptedData)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.EncryptedData)
         com.araguaneybits.core.protos.Protos.EncryptedDataOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -919,7 +919,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.EncryptedData.class, com.araguaneybits.core.protos.Protos.EncryptedData.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.EncryptedData.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.EncryptedData.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1138,7 +1138,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.EncryptedData)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.EncryptedData)
     }
 
     static {
@@ -1146,11 +1146,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.EncryptedData)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.EncryptedData)
   }
 
   public interface DeterministicKeyOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.DeterministicKey)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.DeterministicKey)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -1258,7 +1258,7 @@ public final class Protos {
     boolean getIsFollowing();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.DeterministicKey}
+   * Protobuf type {@code com.araguaneybits.core.protos.DeterministicKey}
    *
    * <pre>
    **
@@ -1267,7 +1267,7 @@ public final class Protos {
    */
   public static final class DeterministicKey extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.DeterministicKey)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.DeterministicKey)
       DeterministicKeyOrBuilder {
     // Use DeterministicKey.newBuilder() to construct.
     private DeterministicKey(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -1687,7 +1687,7 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.DeterministicKey}
+     * Protobuf type {@code com.araguaneybits.core.protos.DeterministicKey}
      *
      * <pre>
      **
@@ -1696,7 +1696,7 @@ public final class Protos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.DeterministicKey)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.DeterministicKey)
         com.araguaneybits.core.protos.Protos.DeterministicKeyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -1710,7 +1710,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.DeterministicKey.class, com.araguaneybits.core.protos.Protos.DeterministicKey.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.DeterministicKey.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.DeterministicKey.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2170,7 +2170,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.DeterministicKey)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.DeterministicKey)
     }
 
     static {
@@ -2178,19 +2178,19 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.DeterministicKey)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.DeterministicKey)
   }
 
   public interface KeyOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.Key)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.Key)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>required .com.coinomi.core.protos.Key.Type type = 1;</code>
+     * <code>required .com.araguaneybits.core.protos.Key.Type type = 1;</code>
      */
     boolean hasType();
     /**
-     * <code>required .com.coinomi.core.protos.Key.Type type = 1;</code>
+     * <code>required .com.araguaneybits.core.protos.Key.Type type = 1;</code>
      */
     com.araguaneybits.core.protos.Protos.Key.Type getType();
 
@@ -2214,7 +2214,7 @@ public final class Protos {
     com.google.protobuf.ByteString getSecretBytes();
 
     /**
-     * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
      *
      * <pre>
      * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -2222,7 +2222,7 @@ public final class Protos {
      */
     boolean hasEncryptedData();
     /**
-     * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
      *
      * <pre>
      * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -2230,7 +2230,7 @@ public final class Protos {
      */
     com.araguaneybits.core.protos.Protos.EncryptedData getEncryptedData();
     /**
-     * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
      *
      * <pre>
      * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -2284,20 +2284,20 @@ public final class Protos {
         getLabelBytes();
 
     /**
-     * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
      */
     boolean hasDeterministicKey();
     /**
-     * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
      */
     com.araguaneybits.core.protos.Protos.DeterministicKey getDeterministicKey();
     /**
-     * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
      */
     com.araguaneybits.core.protos.Protos.DeterministicKeyOrBuilder getDeterministicKeyOrBuilder();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.Key}
+   * Protobuf type {@code com.araguaneybits.core.protos.Key}
    *
    * <pre>
    **
@@ -2310,7 +2310,7 @@ public final class Protos {
    */
   public static final class Key extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.Key)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.Key)
       KeyOrBuilder {
     // Use Key.newBuilder() to construct.
     private Key(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -2450,7 +2450,7 @@ public final class Protos {
     }
 
     /**
-     * Protobuf enum {@code com.coinomi.core.protos.Key.Type}
+     * Protobuf enum {@code com.araguaneybits.core.protos.Key.Type}
      */
     public enum Type
         implements com.google.protobuf.ProtocolMessageEnum {
@@ -2592,20 +2592,20 @@ public final class Protos {
         this.value = value;
       }
 
-      // @@protoc_insertion_point(enum_scope:com.coinomi.core.protos.Key.Type)
+      // @@protoc_insertion_point(enum_scope:com.araguaneybits.core.protos.Key.Type)
     }
 
     private int bitField0_;
     public static final int TYPE_FIELD_NUMBER = 1;
     private com.araguaneybits.core.protos.Protos.Key.Type type_;
     /**
-     * <code>required .com.coinomi.core.protos.Key.Type type = 1;</code>
+     * <code>required .com.araguaneybits.core.protos.Key.Type type = 1;</code>
      */
     public boolean hasType() {
       return ((bitField0_ & 0x00000001) == 0x00000001);
     }
     /**
-     * <code>required .com.coinomi.core.protos.Key.Type type = 1;</code>
+     * <code>required .com.araguaneybits.core.protos.Key.Type type = 1;</code>
      */
     public com.araguaneybits.core.protos.Protos.Key.Type getType() {
       return type_;
@@ -2639,7 +2639,7 @@ public final class Protos {
     public static final int ENCRYPTED_DATA_FIELD_NUMBER = 3;
     private com.araguaneybits.core.protos.Protos.EncryptedData encryptedData_;
     /**
-     * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
      *
      * <pre>
      * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -2649,7 +2649,7 @@ public final class Protos {
       return ((bitField0_ & 0x00000004) == 0x00000004);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
      *
      * <pre>
      * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -2659,7 +2659,7 @@ public final class Protos {
       return encryptedData_;
     }
     /**
-     * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
      *
      * <pre>
      * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -2751,19 +2751,19 @@ public final class Protos {
     public static final int DETERMINISTIC_KEY_FIELD_NUMBER = 6;
     private com.araguaneybits.core.protos.Protos.DeterministicKey deterministicKey_;
     /**
-     * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
      */
     public boolean hasDeterministicKey() {
       return ((bitField0_ & 0x00000020) == 0x00000020);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
      */
     public com.araguaneybits.core.protos.Protos.DeterministicKey getDeterministicKey() {
       return deterministicKey_;
     }
     /**
-     * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
      */
     public com.araguaneybits.core.protos.Protos.DeterministicKeyOrBuilder getDeterministicKeyOrBuilder() {
       return deterministicKey_;
@@ -2936,7 +2936,7 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.Key}
+     * Protobuf type {@code com.araguaneybits.core.protos.Key}
      *
      * <pre>
      **
@@ -2949,7 +2949,7 @@ public final class Protos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.Key)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.Key)
         com.araguaneybits.core.protos.Protos.KeyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -2963,7 +2963,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.Key.class, com.araguaneybits.core.protos.Protos.Key.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.Key.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.Key.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -3146,19 +3146,19 @@ public final class Protos {
 
       private com.araguaneybits.core.protos.Protos.Key.Type type_ = com.araguaneybits.core.protos.Protos.Key.Type.ORIGINAL;
       /**
-       * <code>required .com.coinomi.core.protos.Key.Type type = 1;</code>
+       * <code>required .com.araguaneybits.core.protos.Key.Type type = 1;</code>
        */
       public boolean hasType() {
         return ((bitField0_ & 0x00000001) == 0x00000001);
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key.Type type = 1;</code>
+       * <code>required .com.araguaneybits.core.protos.Key.Type type = 1;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key.Type getType() {
         return type_;
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key.Type type = 1;</code>
+       * <code>required .com.araguaneybits.core.protos.Key.Type type = 1;</code>
        */
       public Builder setType(com.araguaneybits.core.protos.Protos.Key.Type value) {
         if (value == null) {
@@ -3170,7 +3170,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key.Type type = 1;</code>
+       * <code>required .com.araguaneybits.core.protos.Key.Type type = 1;</code>
        */
       public Builder clearType() {
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -3238,7 +3238,7 @@ public final class Protos {
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.EncryptedData, com.araguaneybits.core.protos.Protos.EncryptedData.Builder, com.araguaneybits.core.protos.Protos.EncryptedDataOrBuilder> encryptedDataBuilder_;
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3248,7 +3248,7 @@ public final class Protos {
         return ((bitField0_ & 0x00000004) == 0x00000004);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3262,7 +3262,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3282,7 +3282,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3300,7 +3300,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3323,7 +3323,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3340,7 +3340,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3352,7 +3352,7 @@ public final class Protos {
         return getEncryptedDataFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3366,7 +3366,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.EncryptedData encrypted_data = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.EncryptedData encrypted_data = 3;</code>
        *
        * <pre>
        * If the secret data is encrypted, then secret_bytes is missing and this field is set.
@@ -3545,13 +3545,13 @@ public final class Protos {
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.DeterministicKey, com.araguaneybits.core.protos.Protos.DeterministicKey.Builder, com.araguaneybits.core.protos.Protos.DeterministicKeyOrBuilder> deterministicKeyBuilder_;
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       public boolean hasDeterministicKey() {
         return ((bitField0_ & 0x00000020) == 0x00000020);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.DeterministicKey getDeterministicKey() {
         if (deterministicKeyBuilder_ == null) {
@@ -3561,7 +3561,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       public Builder setDeterministicKey(com.araguaneybits.core.protos.Protos.DeterministicKey value) {
         if (deterministicKeyBuilder_ == null) {
@@ -3577,7 +3577,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       public Builder setDeterministicKey(
           com.araguaneybits.core.protos.Protos.DeterministicKey.Builder builderForValue) {
@@ -3591,7 +3591,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       public Builder mergeDeterministicKey(com.araguaneybits.core.protos.Protos.DeterministicKey value) {
         if (deterministicKeyBuilder_ == null) {
@@ -3610,7 +3610,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       public Builder clearDeterministicKey() {
         if (deterministicKeyBuilder_ == null) {
@@ -3623,7 +3623,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.DeterministicKey.Builder getDeterministicKeyBuilder() {
         bitField0_ |= 0x00000020;
@@ -3631,7 +3631,7 @@ public final class Protos {
         return getDeterministicKeyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.DeterministicKeyOrBuilder getDeterministicKeyOrBuilder() {
         if (deterministicKeyBuilder_ != null) {
@@ -3641,7 +3641,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.DeterministicKey deterministic_key = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.DeterministicKey deterministic_key = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.DeterministicKey, com.araguaneybits.core.protos.Protos.DeterministicKey.Builder, com.araguaneybits.core.protos.Protos.DeterministicKeyOrBuilder>
@@ -3657,7 +3657,7 @@ public final class Protos {
         return deterministicKeyBuilder_;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.Key)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.Key)
     }
 
     static {
@@ -3665,11 +3665,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.Key)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.Key)
   }
 
   public interface TransactionInputOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.TransactionInput)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.TransactionInput)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -3758,11 +3758,11 @@ public final class Protos {
     long getValue();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.TransactionInput}
+   * Protobuf type {@code com.araguaneybits.core.protos.TransactionInput}
    */
   public static final class TransactionInput extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.TransactionInput)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.TransactionInput)
       TransactionInputOrBuilder {
     // Use TransactionInput.newBuilder() to construct.
     private TransactionInput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -4144,11 +4144,11 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.TransactionInput}
+     * Protobuf type {@code com.araguaneybits.core.protos.TransactionInput}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.TransactionInput)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.TransactionInput)
         com.araguaneybits.core.protos.Protos.TransactionInputOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -4162,7 +4162,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.TransactionInput.class, com.araguaneybits.core.protos.Protos.TransactionInput.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.TransactionInput.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.TransactionInput.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -4556,7 +4556,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.TransactionInput)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.TransactionInput)
     }
 
     static {
@@ -4564,11 +4564,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.TransactionInput)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.TransactionInput)
   }
 
   public interface TransactionOutputOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.TransactionOutput)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.TransactionOutput)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -4666,11 +4666,11 @@ public final class Protos {
     int getIndex();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.TransactionOutput}
+   * Protobuf type {@code com.araguaneybits.core.protos.TransactionOutput}
    */
   public static final class TransactionOutput extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.TransactionOutput)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.TransactionOutput)
       TransactionOutputOrBuilder {
     // Use TransactionOutput.newBuilder() to construct.
     private TransactionOutput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -5076,11 +5076,11 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.TransactionOutput}
+     * Protobuf type {@code com.araguaneybits.core.protos.TransactionOutput}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.TransactionOutput)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.TransactionOutput)
         com.araguaneybits.core.protos.Protos.TransactionOutputOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -5094,7 +5094,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.TransactionOutput.class, com.araguaneybits.core.protos.Protos.TransactionOutput.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.TransactionOutput.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.TransactionOutput.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -5525,7 +5525,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.TransactionOutput)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.TransactionOutput)
     }
 
     static {
@@ -5533,11 +5533,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.TransactionOutput)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.TransactionOutput)
   }
 
   public interface UnspentOutputOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.UnspentOutput)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.UnspentOutput)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -5626,11 +5626,11 @@ public final class Protos {
     boolean getIsGenerated();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.UnspentOutput}
+   * Protobuf type {@code com.araguaneybits.core.protos.UnspentOutput}
    */
   public static final class UnspentOutput extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.UnspentOutput)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.UnspentOutput)
       UnspentOutputOrBuilder {
     // Use UnspentOutput.newBuilder() to construct.
     private UnspentOutput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -6016,11 +6016,11 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.UnspentOutput}
+     * Protobuf type {@code com.araguaneybits.core.protos.UnspentOutput}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.UnspentOutput)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.UnspentOutput)
         com.araguaneybits.core.protos.Protos.UnspentOutputOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -6034,7 +6034,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.UnspentOutput.class, com.araguaneybits.core.protos.Protos.UnspentOutput.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.UnspentOutput.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.UnspentOutput.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -6432,7 +6432,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.UnspentOutput)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.UnspentOutput)
     }
 
     static {
@@ -6440,15 +6440,15 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.UnspentOutput)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.UnspentOutput)
   }
 
   public interface TransactionConfidenceOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.TransactionConfidence)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.TransactionConfidence)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence.Type type = 1;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Type type = 1;</code>
      *
      * <pre>
      * This is optional in case we add confidence types to prevent parse errors - backwards compatible.
@@ -6456,7 +6456,7 @@ public final class Protos {
      */
     boolean hasType();
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence.Type type = 1;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Type type = 1;</code>
      *
      * <pre>
      * This is optional in case we add confidence types to prevent parse errors - backwards compatible.
@@ -6522,40 +6522,40 @@ public final class Protos {
     int getDepth();
 
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     java.util.List<com.araguaneybits.core.protos.Protos.PeerAddress>
         getBroadcastByList();
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     com.araguaneybits.core.protos.Protos.PeerAddress getBroadcastBy(int index);
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     int getBroadcastByCount();
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     java.util.List<? extends com.araguaneybits.core.protos.Protos.PeerAddressOrBuilder>
         getBroadcastByOrBuilderList();
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     com.araguaneybits.core.protos.Protos.PeerAddressOrBuilder getBroadcastByOrBuilder(
         int index);
 
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence.Source source = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Source source = 6;</code>
      */
     boolean hasSource();
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence.Source source = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Source source = 6;</code>
      */
     com.araguaneybits.core.protos.Protos.TransactionConfidence.Source getSource();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.TransactionConfidence}
+   * Protobuf type {@code com.araguaneybits.core.protos.TransactionConfidence}
    *
    * <pre>
    **
@@ -6566,7 +6566,7 @@ public final class Protos {
    */
   public static final class TransactionConfidence extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.TransactionConfidence)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.TransactionConfidence)
       TransactionConfidenceOrBuilder {
     // Use TransactionConfidence.newBuilder() to construct.
     private TransactionConfidence(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -6701,7 +6701,7 @@ public final class Protos {
     }
 
     /**
-     * Protobuf enum {@code com.coinomi.core.protos.TransactionConfidence.Type}
+     * Protobuf enum {@code com.araguaneybits.core.protos.TransactionConfidence.Type}
      */
     public enum Type
         implements com.google.protobuf.ProtocolMessageEnum {
@@ -6821,11 +6821,11 @@ public final class Protos {
         this.value = value;
       }
 
-      // @@protoc_insertion_point(enum_scope:com.coinomi.core.protos.TransactionConfidence.Type)
+      // @@protoc_insertion_point(enum_scope:com.araguaneybits.core.protos.TransactionConfidence.Type)
     }
 
     /**
-     * Protobuf enum {@code com.coinomi.core.protos.TransactionConfidence.Source}
+     * Protobuf enum {@code com.araguaneybits.core.protos.TransactionConfidence.Source}
      *
      * <pre>
      * Where did we get this transaction from? Knowing the source may help us to risk analyze pending transactions.
@@ -6957,14 +6957,14 @@ public final class Protos {
         this.value = value;
       }
 
-      // @@protoc_insertion_point(enum_scope:com.coinomi.core.protos.TransactionConfidence.Source)
+      // @@protoc_insertion_point(enum_scope:com.araguaneybits.core.protos.TransactionConfidence.Source)
     }
 
     private int bitField0_;
     public static final int TYPE_FIELD_NUMBER = 1;
     private com.araguaneybits.core.protos.Protos.TransactionConfidence.Type type_;
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence.Type type = 1;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Type type = 1;</code>
      *
      * <pre>
      * This is optional in case we add confidence types to prevent parse errors - backwards compatible.
@@ -6974,7 +6974,7 @@ public final class Protos {
       return ((bitField0_ & 0x00000001) == 0x00000001);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence.Type type = 1;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Type type = 1;</code>
      *
      * <pre>
      * This is optional in case we add confidence types to prevent parse errors - backwards compatible.
@@ -7062,32 +7062,32 @@ public final class Protos {
     public static final int BROADCAST_BY_FIELD_NUMBER = 5;
     private java.util.List<com.araguaneybits.core.protos.Protos.PeerAddress> broadcastBy_;
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     public java.util.List<com.araguaneybits.core.protos.Protos.PeerAddress> getBroadcastByList() {
       return broadcastBy_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     public java.util.List<? extends com.araguaneybits.core.protos.Protos.PeerAddressOrBuilder>
         getBroadcastByOrBuilderList() {
       return broadcastBy_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     public int getBroadcastByCount() {
       return broadcastBy_.size();
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     public com.araguaneybits.core.protos.Protos.PeerAddress getBroadcastBy(int index) {
       return broadcastBy_.get(index);
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+     * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
      */
     public com.araguaneybits.core.protos.Protos.PeerAddressOrBuilder getBroadcastByOrBuilder(
         int index) {
@@ -7097,13 +7097,13 @@ public final class Protos {
     public static final int SOURCE_FIELD_NUMBER = 6;
     private com.araguaneybits.core.protos.Protos.TransactionConfidence.Source source_;
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence.Source source = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Source source = 6;</code>
      */
     public boolean hasSource() {
       return ((bitField0_ & 0x00000010) == 0x00000010);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence.Source source = 6;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Source source = 6;</code>
      */
     public com.araguaneybits.core.protos.Protos.TransactionConfidence.Source getSource() {
       return source_;
@@ -7266,7 +7266,7 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.TransactionConfidence}
+     * Protobuf type {@code com.araguaneybits.core.protos.TransactionConfidence}
      *
      * <pre>
      **
@@ -7277,7 +7277,7 @@ public final class Protos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.TransactionConfidence)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.TransactionConfidence)
         com.araguaneybits.core.protos.Protos.TransactionConfidenceOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -7291,7 +7291,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.TransactionConfidence.class, com.araguaneybits.core.protos.Protos.TransactionConfidence.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.TransactionConfidence.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.TransactionConfidence.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -7477,7 +7477,7 @@ public final class Protos {
 
       private com.araguaneybits.core.protos.Protos.TransactionConfidence.Type type_ = com.araguaneybits.core.protos.Protos.TransactionConfidence.Type.UNKNOWN;
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence.Type type = 1;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Type type = 1;</code>
        *
        * <pre>
        * This is optional in case we add confidence types to prevent parse errors - backwards compatible.
@@ -7487,7 +7487,7 @@ public final class Protos {
         return ((bitField0_ & 0x00000001) == 0x00000001);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence.Type type = 1;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Type type = 1;</code>
        *
        * <pre>
        * This is optional in case we add confidence types to prevent parse errors - backwards compatible.
@@ -7497,7 +7497,7 @@ public final class Protos {
         return type_;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence.Type type = 1;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Type type = 1;</code>
        *
        * <pre>
        * This is optional in case we add confidence types to prevent parse errors - backwards compatible.
@@ -7513,7 +7513,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence.Type type = 1;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Type type = 1;</code>
        *
        * <pre>
        * This is optional in case we add confidence types to prevent parse errors - backwards compatible.
@@ -7698,7 +7698,7 @@ public final class Protos {
           com.araguaneybits.core.protos.Protos.PeerAddress, com.araguaneybits.core.protos.Protos.PeerAddress.Builder, com.araguaneybits.core.protos.Protos.PeerAddressOrBuilder> broadcastByBuilder_;
 
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.PeerAddress> getBroadcastByList() {
         if (broadcastByBuilder_ == null) {
@@ -7708,7 +7708,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public int getBroadcastByCount() {
         if (broadcastByBuilder_ == null) {
@@ -7718,7 +7718,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public com.araguaneybits.core.protos.Protos.PeerAddress getBroadcastBy(int index) {
         if (broadcastByBuilder_ == null) {
@@ -7728,7 +7728,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder setBroadcastBy(
           int index, com.araguaneybits.core.protos.Protos.PeerAddress value) {
@@ -7745,7 +7745,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder setBroadcastBy(
           int index, com.araguaneybits.core.protos.Protos.PeerAddress.Builder builderForValue) {
@@ -7759,7 +7759,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder addBroadcastBy(com.araguaneybits.core.protos.Protos.PeerAddress value) {
         if (broadcastByBuilder_ == null) {
@@ -7775,7 +7775,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder addBroadcastBy(
           int index, com.araguaneybits.core.protos.Protos.PeerAddress value) {
@@ -7792,7 +7792,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder addBroadcastBy(
           com.araguaneybits.core.protos.Protos.PeerAddress.Builder builderForValue) {
@@ -7806,7 +7806,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder addBroadcastBy(
           int index, com.araguaneybits.core.protos.Protos.PeerAddress.Builder builderForValue) {
@@ -7820,7 +7820,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder addAllBroadcastBy(
           java.lang.Iterable<? extends com.araguaneybits.core.protos.Protos.PeerAddress> values) {
@@ -7835,7 +7835,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder clearBroadcastBy() {
         if (broadcastByBuilder_ == null) {
@@ -7848,7 +7848,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public Builder removeBroadcastBy(int index) {
         if (broadcastByBuilder_ == null) {
@@ -7861,14 +7861,14 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public com.araguaneybits.core.protos.Protos.PeerAddress.Builder getBroadcastByBuilder(
           int index) {
         return getBroadcastByFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public com.araguaneybits.core.protos.Protos.PeerAddressOrBuilder getBroadcastByOrBuilder(
           int index) {
@@ -7878,7 +7878,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public java.util.List<? extends com.araguaneybits.core.protos.Protos.PeerAddressOrBuilder>
            getBroadcastByOrBuilderList() {
@@ -7889,14 +7889,14 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public com.araguaneybits.core.protos.Protos.PeerAddress.Builder addBroadcastByBuilder() {
         return getBroadcastByFieldBuilder().addBuilder(
             com.araguaneybits.core.protos.Protos.PeerAddress.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public com.araguaneybits.core.protos.Protos.PeerAddress.Builder addBroadcastByBuilder(
           int index) {
@@ -7904,7 +7904,7 @@ public final class Protos {
             index, com.araguaneybits.core.protos.Protos.PeerAddress.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.PeerAddress broadcast_by = 5;</code>
+       * <code>repeated .com.araguaneybits.core.protos.PeerAddress broadcast_by = 5;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.PeerAddress.Builder>
            getBroadcastByBuilderList() {
@@ -7927,19 +7927,19 @@ public final class Protos {
 
       private com.araguaneybits.core.protos.Protos.TransactionConfidence.Source source_ = com.araguaneybits.core.protos.Protos.TransactionConfidence.Source.SOURCE_UNKNOWN;
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence.Source source = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Source source = 6;</code>
        */
       public boolean hasSource() {
         return ((bitField0_ & 0x00000020) == 0x00000020);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence.Source source = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Source source = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionConfidence.Source getSource() {
         return source_;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence.Source source = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Source source = 6;</code>
        */
       public Builder setSource(com.araguaneybits.core.protos.Protos.TransactionConfidence.Source value) {
         if (value == null) {
@@ -7951,7 +7951,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence.Source source = 6;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence.Source source = 6;</code>
        */
       public Builder clearSource() {
         bitField0_ = (bitField0_ & ~0x00000020);
@@ -7960,7 +7960,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.TransactionConfidence)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.TransactionConfidence)
     }
 
     static {
@@ -7968,11 +7968,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.TransactionConfidence)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.TransactionConfidence)
   }
 
   public interface TransactionOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.Transaction)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.Transaction)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -8019,7 +8019,7 @@ public final class Protos {
     com.google.protobuf.ByteString getHash();
 
     /**
-     * <code>optional .com.coinomi.core.protos.Transaction.Pool pool = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.Transaction.Pool pool = 3;</code>
      *
      * <pre>
      * If pool is not present, that means either:
@@ -8030,7 +8030,7 @@ public final class Protos {
      */
     boolean hasPool();
     /**
-     * <code>optional .com.coinomi.core.protos.Transaction.Pool pool = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.Transaction.Pool pool = 3;</code>
      *
      * <pre>
      * If pool is not present, that means either:
@@ -8076,25 +8076,25 @@ public final class Protos {
     long getUpdatedAt();
 
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     java.util.List<com.araguaneybits.core.protos.Protos.TransactionInput>
         getTransactionInputList();
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     com.araguaneybits.core.protos.Protos.TransactionInput getTransactionInput(int index);
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     int getTransactionInputCount();
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionInputOrBuilder>
         getTransactionInputOrBuilderList();
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     com.araguaneybits.core.protos.Protos.TransactionInputOrBuilder getTransactionInputOrBuilder(
         int index);
@@ -8117,25 +8117,25 @@ public final class Protos {
     int getNumOfOutputs();
 
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     java.util.List<com.araguaneybits.core.protos.Protos.TransactionOutput>
         getTransactionOutputList();
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     com.araguaneybits.core.protos.Protos.TransactionOutput getTransactionOutput(int index);
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     int getTransactionOutputCount();
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionOutputOrBuilder>
         getTransactionOutputOrBuilderList();
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     com.araguaneybits.core.protos.Protos.TransactionOutputOrBuilder getTransactionOutputOrBuilder(
         int index);
@@ -8182,7 +8182,7 @@ public final class Protos {
     int getBlockRelativityOffsets(int index);
 
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
      *
      * <pre>
      * Data describing where the transaction is in the chain.
@@ -8190,7 +8190,7 @@ public final class Protos {
      */
     boolean hasConfidence();
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
      *
      * <pre>
      * Data describing where the transaction is in the chain.
@@ -8198,7 +8198,7 @@ public final class Protos {
      */
     com.araguaneybits.core.protos.Protos.TransactionConfidence getConfidence();
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
      *
      * <pre>
      * Data describing where the transaction is in the chain.
@@ -8293,11 +8293,11 @@ public final class Protos {
     long getFee();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.Transaction}
+   * Protobuf type {@code com.araguaneybits.core.protos.Transaction}
    */
   public static final class Transaction extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.Transaction)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.Transaction)
       TransactionOrBuilder {
     // Use Transaction.newBuilder() to construct.
     private Transaction(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -8525,7 +8525,7 @@ public final class Protos {
     }
 
     /**
-     * Protobuf enum {@code com.coinomi.core.protos.Transaction.Pool}
+     * Protobuf enum {@code com.araguaneybits.core.protos.Transaction.Pool}
      *
      * <pre>
      **
@@ -8664,7 +8664,7 @@ public final class Protos {
         this.value = value;
       }
 
-      // @@protoc_insertion_point(enum_scope:com.coinomi.core.protos.Transaction.Pool)
+      // @@protoc_insertion_point(enum_scope:com.araguaneybits.core.protos.Transaction.Pool)
     }
 
     private int bitField0_;
@@ -8732,7 +8732,7 @@ public final class Protos {
     public static final int POOL_FIELD_NUMBER = 3;
     private com.araguaneybits.core.protos.Protos.Transaction.Pool pool_;
     /**
-     * <code>optional .com.coinomi.core.protos.Transaction.Pool pool = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.Transaction.Pool pool = 3;</code>
      *
      * <pre>
      * If pool is not present, that means either:
@@ -8745,7 +8745,7 @@ public final class Protos {
       return ((bitField0_ & 0x00000008) == 0x00000008);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.Transaction.Pool pool = 3;</code>
+     * <code>optional .com.araguaneybits.core.protos.Transaction.Pool pool = 3;</code>
      *
      * <pre>
      * If pool is not present, that means either:
@@ -8807,32 +8807,32 @@ public final class Protos {
     public static final int TRANSACTION_INPUT_FIELD_NUMBER = 6;
     private java.util.List<com.araguaneybits.core.protos.Protos.TransactionInput> transactionInput_;
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     public java.util.List<com.araguaneybits.core.protos.Protos.TransactionInput> getTransactionInputList() {
       return transactionInput_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     public java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionInputOrBuilder>
         getTransactionInputOrBuilderList() {
       return transactionInput_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     public int getTransactionInputCount() {
       return transactionInput_.size();
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     public com.araguaneybits.core.protos.Protos.TransactionInput getTransactionInput(int index) {
       return transactionInput_.get(index);
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
      */
     public com.araguaneybits.core.protos.Protos.TransactionInputOrBuilder getTransactionInputOrBuilder(
         int index) {
@@ -8865,32 +8865,32 @@ public final class Protos {
     public static final int TRANSACTION_OUTPUT_FIELD_NUMBER = 7;
     private java.util.List<com.araguaneybits.core.protos.Protos.TransactionOutput> transactionOutput_;
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     public java.util.List<com.araguaneybits.core.protos.Protos.TransactionOutput> getTransactionOutputList() {
       return transactionOutput_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     public java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionOutputOrBuilder>
         getTransactionOutputOrBuilderList() {
       return transactionOutput_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     public int getTransactionOutputCount() {
       return transactionOutput_.size();
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     public com.araguaneybits.core.protos.Protos.TransactionOutput getTransactionOutput(int index) {
       return transactionOutput_.get(index);
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
      */
     public com.araguaneybits.core.protos.Protos.TransactionOutputOrBuilder getTransactionOutputOrBuilder(
         int index) {
@@ -8959,7 +8959,7 @@ public final class Protos {
     public static final int CONFIDENCE_FIELD_NUMBER = 10;
     private com.araguaneybits.core.protos.Protos.TransactionConfidence confidence_;
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
      *
      * <pre>
      * Data describing where the transaction is in the chain.
@@ -8969,7 +8969,7 @@ public final class Protos {
       return ((bitField0_ & 0x00000080) == 0x00000080);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
      *
      * <pre>
      * Data describing where the transaction is in the chain.
@@ -8979,7 +8979,7 @@ public final class Protos {
       return confidence_;
     }
     /**
-     * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+     * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
      *
      * <pre>
      * Data describing where the transaction is in the chain.
@@ -9394,11 +9394,11 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.Transaction}
+     * Protobuf type {@code com.araguaneybits.core.protos.Transaction}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.Transaction)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.Transaction)
         com.araguaneybits.core.protos.Protos.TransactionOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -9412,7 +9412,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.Transaction.class, com.araguaneybits.core.protos.Protos.Transaction.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.Transaction.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.Transaction.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -9915,7 +9915,7 @@ public final class Protos {
 
       private com.araguaneybits.core.protos.Protos.Transaction.Pool pool_ = com.araguaneybits.core.protos.Protos.Transaction.Pool.UNSPENT;
       /**
-       * <code>optional .com.coinomi.core.protos.Transaction.Pool pool = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.Transaction.Pool pool = 3;</code>
        *
        * <pre>
        * If pool is not present, that means either:
@@ -9928,7 +9928,7 @@ public final class Protos {
         return ((bitField0_ & 0x00000008) == 0x00000008);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Transaction.Pool pool = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.Transaction.Pool pool = 3;</code>
        *
        * <pre>
        * If pool is not present, that means either:
@@ -9941,7 +9941,7 @@ public final class Protos {
         return pool_;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Transaction.Pool pool = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.Transaction.Pool pool = 3;</code>
        *
        * <pre>
        * If pool is not present, that means either:
@@ -9960,7 +9960,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Transaction.Pool pool = 3;</code>
+       * <code>optional .com.araguaneybits.core.protos.Transaction.Pool pool = 3;</code>
        *
        * <pre>
        * If pool is not present, that means either:
@@ -10085,7 +10085,7 @@ public final class Protos {
           com.araguaneybits.core.protos.Protos.TransactionInput, com.araguaneybits.core.protos.Protos.TransactionInput.Builder, com.araguaneybits.core.protos.Protos.TransactionInputOrBuilder> transactionInputBuilder_;
 
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.TransactionInput> getTransactionInputList() {
         if (transactionInputBuilder_ == null) {
@@ -10095,7 +10095,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public int getTransactionInputCount() {
         if (transactionInputBuilder_ == null) {
@@ -10105,7 +10105,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionInput getTransactionInput(int index) {
         if (transactionInputBuilder_ == null) {
@@ -10115,7 +10115,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder setTransactionInput(
           int index, com.araguaneybits.core.protos.Protos.TransactionInput value) {
@@ -10132,7 +10132,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder setTransactionInput(
           int index, com.araguaneybits.core.protos.Protos.TransactionInput.Builder builderForValue) {
@@ -10146,7 +10146,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder addTransactionInput(com.araguaneybits.core.protos.Protos.TransactionInput value) {
         if (transactionInputBuilder_ == null) {
@@ -10162,7 +10162,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder addTransactionInput(
           int index, com.araguaneybits.core.protos.Protos.TransactionInput value) {
@@ -10179,7 +10179,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder addTransactionInput(
           com.araguaneybits.core.protos.Protos.TransactionInput.Builder builderForValue) {
@@ -10193,7 +10193,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder addTransactionInput(
           int index, com.araguaneybits.core.protos.Protos.TransactionInput.Builder builderForValue) {
@@ -10207,7 +10207,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder addAllTransactionInput(
           java.lang.Iterable<? extends com.araguaneybits.core.protos.Protos.TransactionInput> values) {
@@ -10222,7 +10222,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder clearTransactionInput() {
         if (transactionInputBuilder_ == null) {
@@ -10235,7 +10235,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public Builder removeTransactionInput(int index) {
         if (transactionInputBuilder_ == null) {
@@ -10248,14 +10248,14 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionInput.Builder getTransactionInputBuilder(
           int index) {
         return getTransactionInputFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionInputOrBuilder getTransactionInputOrBuilder(
           int index) {
@@ -10265,7 +10265,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionInputOrBuilder>
            getTransactionInputOrBuilderList() {
@@ -10276,14 +10276,14 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionInput.Builder addTransactionInputBuilder() {
         return getTransactionInputFieldBuilder().addBuilder(
             com.araguaneybits.core.protos.Protos.TransactionInput.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionInput.Builder addTransactionInputBuilder(
           int index) {
@@ -10291,7 +10291,7 @@ public final class Protos {
             index, com.araguaneybits.core.protos.Protos.TransactionInput.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionInput transaction_input = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionInput transaction_input = 6;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.TransactionInput.Builder>
            getTransactionInputBuilderList() {
@@ -10373,7 +10373,7 @@ public final class Protos {
           com.araguaneybits.core.protos.Protos.TransactionOutput, com.araguaneybits.core.protos.Protos.TransactionOutput.Builder, com.araguaneybits.core.protos.Protos.TransactionOutputOrBuilder> transactionOutputBuilder_;
 
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.TransactionOutput> getTransactionOutputList() {
         if (transactionOutputBuilder_ == null) {
@@ -10383,7 +10383,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public int getTransactionOutputCount() {
         if (transactionOutputBuilder_ == null) {
@@ -10393,7 +10393,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionOutput getTransactionOutput(int index) {
         if (transactionOutputBuilder_ == null) {
@@ -10403,7 +10403,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder setTransactionOutput(
           int index, com.araguaneybits.core.protos.Protos.TransactionOutput value) {
@@ -10420,7 +10420,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder setTransactionOutput(
           int index, com.araguaneybits.core.protos.Protos.TransactionOutput.Builder builderForValue) {
@@ -10434,7 +10434,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder addTransactionOutput(com.araguaneybits.core.protos.Protos.TransactionOutput value) {
         if (transactionOutputBuilder_ == null) {
@@ -10450,7 +10450,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder addTransactionOutput(
           int index, com.araguaneybits.core.protos.Protos.TransactionOutput value) {
@@ -10467,7 +10467,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder addTransactionOutput(
           com.araguaneybits.core.protos.Protos.TransactionOutput.Builder builderForValue) {
@@ -10481,7 +10481,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder addTransactionOutput(
           int index, com.araguaneybits.core.protos.Protos.TransactionOutput.Builder builderForValue) {
@@ -10495,7 +10495,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder addAllTransactionOutput(
           java.lang.Iterable<? extends com.araguaneybits.core.protos.Protos.TransactionOutput> values) {
@@ -10510,7 +10510,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder clearTransactionOutput() {
         if (transactionOutputBuilder_ == null) {
@@ -10523,7 +10523,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public Builder removeTransactionOutput(int index) {
         if (transactionOutputBuilder_ == null) {
@@ -10536,14 +10536,14 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionOutput.Builder getTransactionOutputBuilder(
           int index) {
         return getTransactionOutputFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionOutputOrBuilder getTransactionOutputOrBuilder(
           int index) {
@@ -10553,7 +10553,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionOutputOrBuilder>
            getTransactionOutputOrBuilderList() {
@@ -10564,14 +10564,14 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionOutput.Builder addTransactionOutputBuilder() {
         return getTransactionOutputFieldBuilder().addBuilder(
             com.araguaneybits.core.protos.Protos.TransactionOutput.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionOutput.Builder addTransactionOutputBuilder(
           int index) {
@@ -10579,7 +10579,7 @@ public final class Protos {
             index, com.araguaneybits.core.protos.Protos.TransactionOutput.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.TransactionOutput transaction_output = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.TransactionOutput transaction_output = 7;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.TransactionOutput.Builder>
            getTransactionOutputBuilderList() {
@@ -10777,7 +10777,7 @@ public final class Protos {
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.TransactionConfidence, com.araguaneybits.core.protos.Protos.TransactionConfidence.Builder, com.araguaneybits.core.protos.Protos.TransactionConfidenceOrBuilder> confidenceBuilder_;
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -10787,7 +10787,7 @@ public final class Protos {
         return ((bitField0_ & 0x00000800) == 0x00000800);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -10801,7 +10801,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -10821,7 +10821,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -10839,7 +10839,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -10862,7 +10862,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -10879,7 +10879,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -10891,7 +10891,7 @@ public final class Protos {
         return getConfidenceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -10905,7 +10905,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.TransactionConfidence confidence = 10;</code>
+       * <code>optional .com.araguaneybits.core.protos.TransactionConfidence confidence = 10;</code>
        *
        * <pre>
        * Data describing where the transaction is in the chain.
@@ -11184,7 +11184,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.Transaction)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.Transaction)
     }
 
     static {
@@ -11192,11 +11192,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.Transaction)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.Transaction)
   }
 
   public interface AddressStatusOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.AddressStatus)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.AddressStatus)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -11252,11 +11252,11 @@ public final class Protos {
         getStatusBytes();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.AddressStatus}
+   * Protobuf type {@code com.araguaneybits.core.protos.AddressStatus}
    */
   public static final class AddressStatus extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.AddressStatus)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.AddressStatus)
       AddressStatusOrBuilder {
     // Use AddressStatus.newBuilder() to construct.
     private AddressStatus(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -11590,11 +11590,11 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.AddressStatus}
+     * Protobuf type {@code com.araguaneybits.core.protos.AddressStatus}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.AddressStatus)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.AddressStatus)
         com.araguaneybits.core.protos.Protos.AddressStatusOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -11608,7 +11608,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.AddressStatus.class, com.araguaneybits.core.protos.Protos.AddressStatus.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.AddressStatus.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.AddressStatus.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -11929,7 +11929,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.AddressStatus)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.AddressStatus)
     }
 
     static {
@@ -11937,11 +11937,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.AddressStatus)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.AddressStatus)
   }
 
   public interface WalletPocketOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.WalletPocket)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.WalletPocket)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -11997,25 +11997,25 @@ public final class Protos {
         getDescriptionBytes();
 
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     java.util.List<com.araguaneybits.core.protos.Protos.Key>
         getKeyList();
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     com.araguaneybits.core.protos.Protos.Key getKey(int index);
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     int getKeyCount();
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     java.util.List<? extends com.araguaneybits.core.protos.Protos.KeyOrBuilder>
         getKeyOrBuilderList();
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     com.araguaneybits.core.protos.Protos.KeyOrBuilder getKeyOrBuilder(
         int index);
@@ -12064,49 +12064,49 @@ public final class Protos {
     long getLastSeenBlockTimeSecs();
 
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     java.util.List<com.araguaneybits.core.protos.Protos.Transaction>
         getTransactionList();
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     com.araguaneybits.core.protos.Protos.Transaction getTransaction(int index);
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     int getTransactionCount();
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionOrBuilder>
         getTransactionOrBuilderList();
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     com.araguaneybits.core.protos.Protos.TransactionOrBuilder getTransactionOrBuilder(
         int index);
 
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     java.util.List<com.araguaneybits.core.protos.Protos.AddressStatus>
         getAddressStatusList();
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     com.araguaneybits.core.protos.Protos.AddressStatus getAddressStatus(int index);
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     int getAddressStatusCount();
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     java.util.List<? extends com.araguaneybits.core.protos.Protos.AddressStatusOrBuilder>
         getAddressStatusOrBuilderList();
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     com.araguaneybits.core.protos.Protos.AddressStatusOrBuilder getAddressStatusOrBuilder(
         int index);
@@ -12126,31 +12126,31 @@ public final class Protos {
         getIdBytes();
 
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     java.util.List<com.araguaneybits.core.protos.Protos.UnspentOutput>
         getUnspentOutputList();
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     com.araguaneybits.core.protos.Protos.UnspentOutput getUnspentOutput(int index);
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     int getUnspentOutputCount();
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     java.util.List<? extends com.araguaneybits.core.protos.Protos.UnspentOutputOrBuilder>
         getUnspentOutputOrBuilderList();
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     com.araguaneybits.core.protos.Protos.UnspentOutputOrBuilder getUnspentOutputOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.WalletPocket}
+   * Protobuf type {@code com.araguaneybits.core.protos.WalletPocket}
    *
    * <pre>
    ** A wallet pocket
@@ -12158,7 +12158,7 @@ public final class Protos {
    */
   public static final class WalletPocket extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.WalletPocket)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.WalletPocket)
       WalletPocketOrBuilder {
     // Use WalletPocket.newBuilder() to construct.
     private WalletPocket(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -12433,32 +12433,32 @@ public final class Protos {
     public static final int KEY_FIELD_NUMBER = 3;
     private java.util.List<com.araguaneybits.core.protos.Protos.Key> key_;
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     public java.util.List<com.araguaneybits.core.protos.Protos.Key> getKeyList() {
       return key_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     public java.util.List<? extends com.araguaneybits.core.protos.Protos.KeyOrBuilder>
         getKeyOrBuilderList() {
       return key_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     public int getKeyCount() {
       return key_.size();
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     public com.araguaneybits.core.protos.Protos.Key getKey(int index) {
       return key_.get(index);
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
      */
     public com.araguaneybits.core.protos.Protos.KeyOrBuilder getKeyOrBuilder(
         int index) {
@@ -12529,32 +12529,32 @@ public final class Protos {
     public static final int TRANSACTION_FIELD_NUMBER = 7;
     private java.util.List<com.araguaneybits.core.protos.Protos.Transaction> transaction_;
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     public java.util.List<com.araguaneybits.core.protos.Protos.Transaction> getTransactionList() {
       return transaction_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     public java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionOrBuilder>
         getTransactionOrBuilderList() {
       return transaction_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     public int getTransactionCount() {
       return transaction_.size();
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     public com.araguaneybits.core.protos.Protos.Transaction getTransaction(int index) {
       return transaction_.get(index);
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+     * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
      */
     public com.araguaneybits.core.protos.Protos.TransactionOrBuilder getTransactionOrBuilder(
         int index) {
@@ -12564,32 +12564,32 @@ public final class Protos {
     public static final int ADDRESS_STATUS_FIELD_NUMBER = 8;
     private java.util.List<com.araguaneybits.core.protos.Protos.AddressStatus> addressStatus_;
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     public java.util.List<com.araguaneybits.core.protos.Protos.AddressStatus> getAddressStatusList() {
       return addressStatus_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     public java.util.List<? extends com.araguaneybits.core.protos.Protos.AddressStatusOrBuilder>
         getAddressStatusOrBuilderList() {
       return addressStatus_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     public int getAddressStatusCount() {
       return addressStatus_.size();
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     public com.araguaneybits.core.protos.Protos.AddressStatus getAddressStatus(int index) {
       return addressStatus_.get(index);
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+     * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
      */
     public com.araguaneybits.core.protos.Protos.AddressStatusOrBuilder getAddressStatusOrBuilder(
         int index) {
@@ -12641,32 +12641,32 @@ public final class Protos {
     public static final int UNSPENT_OUTPUT_FIELD_NUMBER = 10;
     private java.util.List<com.araguaneybits.core.protos.Protos.UnspentOutput> unspentOutput_;
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     public java.util.List<com.araguaneybits.core.protos.Protos.UnspentOutput> getUnspentOutputList() {
       return unspentOutput_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     public java.util.List<? extends com.araguaneybits.core.protos.Protos.UnspentOutputOrBuilder>
         getUnspentOutputOrBuilderList() {
       return unspentOutput_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     public int getUnspentOutputCount() {
       return unspentOutput_.size();
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     public com.araguaneybits.core.protos.Protos.UnspentOutput getUnspentOutput(int index) {
       return unspentOutput_.get(index);
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+     * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
      */
     public com.araguaneybits.core.protos.Protos.UnspentOutputOrBuilder getUnspentOutputOrBuilder(
         int index) {
@@ -12884,7 +12884,7 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.WalletPocket}
+     * Protobuf type {@code com.araguaneybits.core.protos.WalletPocket}
      *
      * <pre>
      ** A wallet pocket
@@ -12892,7 +12892,7 @@ public final class Protos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.WalletPocket)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.WalletPocket)
         com.araguaneybits.core.protos.Protos.WalletPocketOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -12906,7 +12906,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.WalletPocket.class, com.araguaneybits.core.protos.Protos.WalletPocket.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.WalletPocket.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.WalletPocket.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -13466,7 +13466,7 @@ public final class Protos {
           com.araguaneybits.core.protos.Protos.Key, com.araguaneybits.core.protos.Protos.Key.Builder, com.araguaneybits.core.protos.Protos.KeyOrBuilder> keyBuilder_;
 
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.Key> getKeyList() {
         if (keyBuilder_ == null) {
@@ -13476,7 +13476,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public int getKeyCount() {
         if (keyBuilder_ == null) {
@@ -13486,7 +13486,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key getKey(int index) {
         if (keyBuilder_ == null) {
@@ -13496,7 +13496,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder setKey(
           int index, com.araguaneybits.core.protos.Protos.Key value) {
@@ -13513,7 +13513,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder setKey(
           int index, com.araguaneybits.core.protos.Protos.Key.Builder builderForValue) {
@@ -13527,7 +13527,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder addKey(com.araguaneybits.core.protos.Protos.Key value) {
         if (keyBuilder_ == null) {
@@ -13543,7 +13543,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder addKey(
           int index, com.araguaneybits.core.protos.Protos.Key value) {
@@ -13560,7 +13560,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder addKey(
           com.araguaneybits.core.protos.Protos.Key.Builder builderForValue) {
@@ -13574,7 +13574,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder addKey(
           int index, com.araguaneybits.core.protos.Protos.Key.Builder builderForValue) {
@@ -13588,7 +13588,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder addAllKey(
           java.lang.Iterable<? extends com.araguaneybits.core.protos.Protos.Key> values) {
@@ -13603,7 +13603,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder clearKey() {
         if (keyBuilder_ == null) {
@@ -13616,7 +13616,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public Builder removeKey(int index) {
         if (keyBuilder_ == null) {
@@ -13629,14 +13629,14 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key.Builder getKeyBuilder(
           int index) {
         return getKeyFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public com.araguaneybits.core.protos.Protos.KeyOrBuilder getKeyOrBuilder(
           int index) {
@@ -13646,7 +13646,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public java.util.List<? extends com.araguaneybits.core.protos.Protos.KeyOrBuilder>
            getKeyOrBuilderList() {
@@ -13657,14 +13657,14 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key.Builder addKeyBuilder() {
         return getKeyFieldBuilder().addBuilder(
             com.araguaneybits.core.protos.Protos.Key.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key.Builder addKeyBuilder(
           int index) {
@@ -13672,7 +13672,7 @@ public final class Protos {
             index, com.araguaneybits.core.protos.Protos.Key.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Key key = 3;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Key key = 3;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.Key.Builder>
            getKeyBuilderList() {
@@ -13837,7 +13837,7 @@ public final class Protos {
           com.araguaneybits.core.protos.Protos.Transaction, com.araguaneybits.core.protos.Protos.Transaction.Builder, com.araguaneybits.core.protos.Protos.TransactionOrBuilder> transactionBuilder_;
 
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.Transaction> getTransactionList() {
         if (transactionBuilder_ == null) {
@@ -13847,7 +13847,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public int getTransactionCount() {
         if (transactionBuilder_ == null) {
@@ -13857,7 +13857,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.Transaction getTransaction(int index) {
         if (transactionBuilder_ == null) {
@@ -13867,7 +13867,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder setTransaction(
           int index, com.araguaneybits.core.protos.Protos.Transaction value) {
@@ -13884,7 +13884,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder setTransaction(
           int index, com.araguaneybits.core.protos.Protos.Transaction.Builder builderForValue) {
@@ -13898,7 +13898,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder addTransaction(com.araguaneybits.core.protos.Protos.Transaction value) {
         if (transactionBuilder_ == null) {
@@ -13914,7 +13914,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder addTransaction(
           int index, com.araguaneybits.core.protos.Protos.Transaction value) {
@@ -13931,7 +13931,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder addTransaction(
           com.araguaneybits.core.protos.Protos.Transaction.Builder builderForValue) {
@@ -13945,7 +13945,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder addTransaction(
           int index, com.araguaneybits.core.protos.Protos.Transaction.Builder builderForValue) {
@@ -13959,7 +13959,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder addAllTransaction(
           java.lang.Iterable<? extends com.araguaneybits.core.protos.Protos.Transaction> values) {
@@ -13974,7 +13974,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder clearTransaction() {
         if (transactionBuilder_ == null) {
@@ -13987,7 +13987,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public Builder removeTransaction(int index) {
         if (transactionBuilder_ == null) {
@@ -14000,14 +14000,14 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.Transaction.Builder getTransactionBuilder(
           int index) {
         return getTransactionFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.TransactionOrBuilder getTransactionOrBuilder(
           int index) {
@@ -14017,7 +14017,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public java.util.List<? extends com.araguaneybits.core.protos.Protos.TransactionOrBuilder>
            getTransactionOrBuilderList() {
@@ -14028,14 +14028,14 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.Transaction.Builder addTransactionBuilder() {
         return getTransactionFieldBuilder().addBuilder(
             com.araguaneybits.core.protos.Protos.Transaction.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public com.araguaneybits.core.protos.Protos.Transaction.Builder addTransactionBuilder(
           int index) {
@@ -14043,7 +14043,7 @@ public final class Protos {
             index, com.araguaneybits.core.protos.Protos.Transaction.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.Transaction transaction = 7;</code>
+       * <code>repeated .com.araguaneybits.core.protos.Transaction transaction = 7;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.Transaction.Builder>
            getTransactionBuilderList() {
@@ -14077,7 +14077,7 @@ public final class Protos {
           com.araguaneybits.core.protos.Protos.AddressStatus, com.araguaneybits.core.protos.Protos.AddressStatus.Builder, com.araguaneybits.core.protos.Protos.AddressStatusOrBuilder> addressStatusBuilder_;
 
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.AddressStatus> getAddressStatusList() {
         if (addressStatusBuilder_ == null) {
@@ -14087,7 +14087,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public int getAddressStatusCount() {
         if (addressStatusBuilder_ == null) {
@@ -14097,7 +14097,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public com.araguaneybits.core.protos.Protos.AddressStatus getAddressStatus(int index) {
         if (addressStatusBuilder_ == null) {
@@ -14107,7 +14107,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder setAddressStatus(
           int index, com.araguaneybits.core.protos.Protos.AddressStatus value) {
@@ -14124,7 +14124,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder setAddressStatus(
           int index, com.araguaneybits.core.protos.Protos.AddressStatus.Builder builderForValue) {
@@ -14138,7 +14138,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder addAddressStatus(com.araguaneybits.core.protos.Protos.AddressStatus value) {
         if (addressStatusBuilder_ == null) {
@@ -14154,7 +14154,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder addAddressStatus(
           int index, com.araguaneybits.core.protos.Protos.AddressStatus value) {
@@ -14171,7 +14171,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder addAddressStatus(
           com.araguaneybits.core.protos.Protos.AddressStatus.Builder builderForValue) {
@@ -14185,7 +14185,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder addAddressStatus(
           int index, com.araguaneybits.core.protos.Protos.AddressStatus.Builder builderForValue) {
@@ -14199,7 +14199,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder addAllAddressStatus(
           java.lang.Iterable<? extends com.araguaneybits.core.protos.Protos.AddressStatus> values) {
@@ -14214,7 +14214,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder clearAddressStatus() {
         if (addressStatusBuilder_ == null) {
@@ -14227,7 +14227,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public Builder removeAddressStatus(int index) {
         if (addressStatusBuilder_ == null) {
@@ -14240,14 +14240,14 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public com.araguaneybits.core.protos.Protos.AddressStatus.Builder getAddressStatusBuilder(
           int index) {
         return getAddressStatusFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public com.araguaneybits.core.protos.Protos.AddressStatusOrBuilder getAddressStatusOrBuilder(
           int index) {
@@ -14257,7 +14257,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public java.util.List<? extends com.araguaneybits.core.protos.Protos.AddressStatusOrBuilder>
            getAddressStatusOrBuilderList() {
@@ -14268,14 +14268,14 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public com.araguaneybits.core.protos.Protos.AddressStatus.Builder addAddressStatusBuilder() {
         return getAddressStatusFieldBuilder().addBuilder(
             com.araguaneybits.core.protos.Protos.AddressStatus.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public com.araguaneybits.core.protos.Protos.AddressStatus.Builder addAddressStatusBuilder(
           int index) {
@@ -14283,7 +14283,7 @@ public final class Protos {
             index, com.araguaneybits.core.protos.Protos.AddressStatus.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.AddressStatus address_status = 8;</code>
+       * <code>repeated .com.araguaneybits.core.protos.AddressStatus address_status = 8;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.AddressStatus.Builder>
            getAddressStatusBuilderList() {
@@ -14393,7 +14393,7 @@ public final class Protos {
           com.araguaneybits.core.protos.Protos.UnspentOutput, com.araguaneybits.core.protos.Protos.UnspentOutput.Builder, com.araguaneybits.core.protos.Protos.UnspentOutputOrBuilder> unspentOutputBuilder_;
 
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.UnspentOutput> getUnspentOutputList() {
         if (unspentOutputBuilder_ == null) {
@@ -14403,7 +14403,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public int getUnspentOutputCount() {
         if (unspentOutputBuilder_ == null) {
@@ -14413,7 +14413,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public com.araguaneybits.core.protos.Protos.UnspentOutput getUnspentOutput(int index) {
         if (unspentOutputBuilder_ == null) {
@@ -14423,7 +14423,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder setUnspentOutput(
           int index, com.araguaneybits.core.protos.Protos.UnspentOutput value) {
@@ -14440,7 +14440,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder setUnspentOutput(
           int index, com.araguaneybits.core.protos.Protos.UnspentOutput.Builder builderForValue) {
@@ -14454,7 +14454,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder addUnspentOutput(com.araguaneybits.core.protos.Protos.UnspentOutput value) {
         if (unspentOutputBuilder_ == null) {
@@ -14470,7 +14470,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder addUnspentOutput(
           int index, com.araguaneybits.core.protos.Protos.UnspentOutput value) {
@@ -14487,7 +14487,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder addUnspentOutput(
           com.araguaneybits.core.protos.Protos.UnspentOutput.Builder builderForValue) {
@@ -14501,7 +14501,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder addUnspentOutput(
           int index, com.araguaneybits.core.protos.Protos.UnspentOutput.Builder builderForValue) {
@@ -14515,7 +14515,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder addAllUnspentOutput(
           java.lang.Iterable<? extends com.araguaneybits.core.protos.Protos.UnspentOutput> values) {
@@ -14530,7 +14530,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder clearUnspentOutput() {
         if (unspentOutputBuilder_ == null) {
@@ -14543,7 +14543,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public Builder removeUnspentOutput(int index) {
         if (unspentOutputBuilder_ == null) {
@@ -14556,14 +14556,14 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public com.araguaneybits.core.protos.Protos.UnspentOutput.Builder getUnspentOutputBuilder(
           int index) {
         return getUnspentOutputFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public com.araguaneybits.core.protos.Protos.UnspentOutputOrBuilder getUnspentOutputOrBuilder(
           int index) {
@@ -14573,7 +14573,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public java.util.List<? extends com.araguaneybits.core.protos.Protos.UnspentOutputOrBuilder>
            getUnspentOutputOrBuilderList() {
@@ -14584,14 +14584,14 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public com.araguaneybits.core.protos.Protos.UnspentOutput.Builder addUnspentOutputBuilder() {
         return getUnspentOutputFieldBuilder().addBuilder(
             com.araguaneybits.core.protos.Protos.UnspentOutput.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public com.araguaneybits.core.protos.Protos.UnspentOutput.Builder addUnspentOutputBuilder(
           int index) {
@@ -14599,7 +14599,7 @@ public final class Protos {
             index, com.araguaneybits.core.protos.Protos.UnspentOutput.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.UnspentOutput unspent_output = 10;</code>
+       * <code>repeated .com.araguaneybits.core.protos.UnspentOutput unspent_output = 10;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.UnspentOutput.Builder>
            getUnspentOutputBuilderList() {
@@ -14620,7 +14620,7 @@ public final class Protos {
         return unspentOutputBuilder_;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.WalletPocket)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.WalletPocket)
     }
 
     static {
@@ -14628,11 +14628,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.WalletPocket)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.WalletPocket)
   }
 
   public interface ScryptParametersOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.ScryptParameters)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.ScryptParameters)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -14704,7 +14704,7 @@ public final class Protos {
     int getP();
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.ScryptParameters}
+   * Protobuf type {@code com.araguaneybits.core.protos.ScryptParameters}
    *
    * <pre>
    ** The parameters used in the scrypt key derivation function.
@@ -14716,7 +14716,7 @@ public final class Protos {
    */
   public static final class ScryptParameters extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.ScryptParameters)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.ScryptParameters)
       ScryptParametersOrBuilder {
     // Use ScryptParameters.newBuilder() to construct.
     private ScryptParameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -15054,7 +15054,7 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.ScryptParameters}
+     * Protobuf type {@code com.araguaneybits.core.protos.ScryptParameters}
      *
      * <pre>
      ** The parameters used in the scrypt key derivation function.
@@ -15066,7 +15066,7 @@ public final class Protos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.ScryptParameters)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.ScryptParameters)
         com.araguaneybits.core.protos.Protos.ScryptParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -15080,7 +15080,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.ScryptParameters.class, com.araguaneybits.core.protos.Protos.ScryptParameters.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.ScryptParameters.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.ScryptParameters.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -15406,7 +15406,7 @@ public final class Protos {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.ScryptParameters)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.ScryptParameters)
     }
 
     static {
@@ -15414,11 +15414,11 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.ScryptParameters)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.ScryptParameters)
   }
 
   public interface WalletOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.coinomi.core.protos.Wallet)
+      // @@protoc_insertion_point(interface_extends:com.araguaneybits.core.protos.Wallet)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -15441,15 +15441,15 @@ public final class Protos {
     int getVersion();
 
     /**
-     * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+     * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
      */
     boolean hasSeed();
     /**
-     * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+     * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
      */
     com.araguaneybits.core.protos.Protos.Key getSeed();
     /**
-     * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+     * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
      */
     com.araguaneybits.core.protos.Protos.KeyOrBuilder getSeedOrBuilder();
 
@@ -15463,66 +15463,66 @@ public final class Protos {
     boolean getSeedPasswordProtected();
 
     /**
-     * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+     * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
      */
     boolean hasMasterKey();
     /**
-     * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+     * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
      */
     com.araguaneybits.core.protos.Protos.Key getMasterKey();
     /**
-     * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+     * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
      */
     com.araguaneybits.core.protos.Protos.KeyOrBuilder getMasterKeyOrBuilder();
 
     /**
-     * <code>optional .com.coinomi.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
+     * <code>optional .com.araguaneybits.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
      */
     boolean hasEncryptionType();
     /**
-     * <code>optional .com.coinomi.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
+     * <code>optional .com.araguaneybits.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
      */
     com.araguaneybits.core.protos.Protos.Wallet.EncryptionType getEncryptionType();
 
     /**
-     * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+     * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
      */
     boolean hasEncryptionParameters();
     /**
-     * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+     * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
      */
     com.araguaneybits.core.protos.Protos.ScryptParameters getEncryptionParameters();
     /**
-     * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+     * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
      */
     com.araguaneybits.core.protos.Protos.ScryptParametersOrBuilder getEncryptionParametersOrBuilder();
 
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     java.util.List<com.araguaneybits.core.protos.Protos.WalletPocket>
         getPocketsList();
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     com.araguaneybits.core.protos.Protos.WalletPocket getPockets(int index);
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     int getPocketsCount();
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     java.util.List<? extends com.araguaneybits.core.protos.Protos.WalletPocketOrBuilder>
         getPocketsOrBuilderList();
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     com.araguaneybits.core.protos.Protos.WalletPocketOrBuilder getPocketsOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code com.coinomi.core.protos.Wallet}
+   * Protobuf type {@code com.araguaneybits.core.protos.Wallet}
    *
    * <pre>
    ** A bitcoin wallet 
@@ -15530,7 +15530,7 @@ public final class Protos {
    */
   public static final class Wallet extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.coinomi.core.protos.Wallet)
+      // @@protoc_insertion_point(message_implements:com.araguaneybits.core.protos.Wallet)
       WalletOrBuilder {
     // Use Wallet.newBuilder() to construct.
     private Wallet(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -15688,7 +15688,7 @@ public final class Protos {
     }
 
     /**
-     * Protobuf enum {@code com.coinomi.core.protos.Wallet.EncryptionType}
+     * Protobuf enum {@code com.araguaneybits.core.protos.Wallet.EncryptionType}
      *
      * <pre>
      **
@@ -15807,7 +15807,7 @@ public final class Protos {
         this.value = value;
       }
 
-      // @@protoc_insertion_point(enum_scope:com.coinomi.core.protos.Wallet.EncryptionType)
+      // @@protoc_insertion_point(enum_scope:com.araguaneybits.core.protos.Wallet.EncryptionType)
     }
 
     private int bitField0_;
@@ -15839,19 +15839,19 @@ public final class Protos {
     public static final int SEED_FIELD_NUMBER = 2;
     private com.araguaneybits.core.protos.Protos.Key seed_;
     /**
-     * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+     * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
      */
     public boolean hasSeed() {
       return ((bitField0_ & 0x00000002) == 0x00000002);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+     * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
      */
     public com.araguaneybits.core.protos.Protos.Key getSeed() {
       return seed_;
     }
     /**
-     * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+     * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
      */
     public com.araguaneybits.core.protos.Protos.KeyOrBuilder getSeedOrBuilder() {
       return seed_;
@@ -15875,19 +15875,19 @@ public final class Protos {
     public static final int MASTER_KEY_FIELD_NUMBER = 3;
     private com.araguaneybits.core.protos.Protos.Key masterKey_;
     /**
-     * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+     * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
      */
     public boolean hasMasterKey() {
       return ((bitField0_ & 0x00000008) == 0x00000008);
     }
     /**
-     * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+     * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
      */
     public com.araguaneybits.core.protos.Protos.Key getMasterKey() {
       return masterKey_;
     }
     /**
-     * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+     * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
      */
     public com.araguaneybits.core.protos.Protos.KeyOrBuilder getMasterKeyOrBuilder() {
       return masterKey_;
@@ -15896,13 +15896,13 @@ public final class Protos {
     public static final int ENCRYPTION_TYPE_FIELD_NUMBER = 4;
     private com.araguaneybits.core.protos.Protos.Wallet.EncryptionType encryptionType_;
     /**
-     * <code>optional .com.coinomi.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
+     * <code>optional .com.araguaneybits.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
      */
     public boolean hasEncryptionType() {
       return ((bitField0_ & 0x00000010) == 0x00000010);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
+     * <code>optional .com.araguaneybits.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
      */
     public com.araguaneybits.core.protos.Protos.Wallet.EncryptionType getEncryptionType() {
       return encryptionType_;
@@ -15911,19 +15911,19 @@ public final class Protos {
     public static final int ENCRYPTION_PARAMETERS_FIELD_NUMBER = 5;
     private com.araguaneybits.core.protos.Protos.ScryptParameters encryptionParameters_;
     /**
-     * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+     * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
      */
     public boolean hasEncryptionParameters() {
       return ((bitField0_ & 0x00000020) == 0x00000020);
     }
     /**
-     * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+     * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
      */
     public com.araguaneybits.core.protos.Protos.ScryptParameters getEncryptionParameters() {
       return encryptionParameters_;
     }
     /**
-     * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+     * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
      */
     public com.araguaneybits.core.protos.Protos.ScryptParametersOrBuilder getEncryptionParametersOrBuilder() {
       return encryptionParameters_;
@@ -15932,32 +15932,32 @@ public final class Protos {
     public static final int POCKETS_FIELD_NUMBER = 6;
     private java.util.List<com.araguaneybits.core.protos.Protos.WalletPocket> pockets_;
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     public java.util.List<com.araguaneybits.core.protos.Protos.WalletPocket> getPocketsList() {
       return pockets_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     public java.util.List<? extends com.araguaneybits.core.protos.Protos.WalletPocketOrBuilder>
         getPocketsOrBuilderList() {
       return pockets_;
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     public int getPocketsCount() {
       return pockets_.size();
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     public com.araguaneybits.core.protos.Protos.WalletPocket getPockets(int index) {
       return pockets_.get(index);
     }
     /**
-     * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+     * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
      */
     public com.araguaneybits.core.protos.Protos.WalletPocketOrBuilder getPocketsOrBuilder(
         int index) {
@@ -16149,7 +16149,7 @@ public final class Protos {
       return builder;
     }
     /**
-     * Protobuf type {@code com.coinomi.core.protos.Wallet}
+     * Protobuf type {@code com.araguaneybits.core.protos.Wallet}
      *
      * <pre>
      ** A bitcoin wallet 
@@ -16157,7 +16157,7 @@ public final class Protos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.coinomi.core.protos.Wallet)
+        // @@protoc_insertion_point(builder_implements:com.araguaneybits.core.protos.Wallet)
         com.araguaneybits.core.protos.Protos.WalletOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
@@ -16171,7 +16171,7 @@ public final class Protos {
                 com.araguaneybits.core.protos.Protos.Wallet.class, com.araguaneybits.core.protos.Protos.Wallet.Builder.class);
       }
 
-      // Construct using com.coinomi.core.protos.Protos.Wallet.newBuilder()
+      // Construct using com.araguaneybits.core.protos.Protos.Wallet.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -16467,13 +16467,13 @@ public final class Protos {
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.Key, com.araguaneybits.core.protos.Protos.Key.Builder, com.araguaneybits.core.protos.Protos.KeyOrBuilder> seedBuilder_;
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       public boolean hasSeed() {
         return ((bitField0_ & 0x00000002) == 0x00000002);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key getSeed() {
         if (seedBuilder_ == null) {
@@ -16483,7 +16483,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       public Builder setSeed(com.araguaneybits.core.protos.Protos.Key value) {
         if (seedBuilder_ == null) {
@@ -16499,7 +16499,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       public Builder setSeed(
           com.araguaneybits.core.protos.Protos.Key.Builder builderForValue) {
@@ -16513,7 +16513,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       public Builder mergeSeed(com.araguaneybits.core.protos.Protos.Key value) {
         if (seedBuilder_ == null) {
@@ -16532,7 +16532,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       public Builder clearSeed() {
         if (seedBuilder_ == null) {
@@ -16545,7 +16545,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key.Builder getSeedBuilder() {
         bitField0_ |= 0x00000002;
@@ -16553,7 +16553,7 @@ public final class Protos {
         return getSeedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       public com.araguaneybits.core.protos.Protos.KeyOrBuilder getSeedOrBuilder() {
         if (seedBuilder_ != null) {
@@ -16563,7 +16563,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Key seed = 2;</code>
+       * <code>optional .com.araguaneybits.core.protos.Key seed = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.Key, com.araguaneybits.core.protos.Protos.Key.Builder, com.araguaneybits.core.protos.Protos.KeyOrBuilder>
@@ -16615,13 +16615,13 @@ public final class Protos {
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.Key, com.araguaneybits.core.protos.Protos.Key.Builder, com.araguaneybits.core.protos.Protos.KeyOrBuilder> masterKeyBuilder_;
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       public boolean hasMasterKey() {
         return ((bitField0_ & 0x00000008) == 0x00000008);
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key getMasterKey() {
         if (masterKeyBuilder_ == null) {
@@ -16631,7 +16631,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       public Builder setMasterKey(com.araguaneybits.core.protos.Protos.Key value) {
         if (masterKeyBuilder_ == null) {
@@ -16647,7 +16647,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       public Builder setMasterKey(
           com.araguaneybits.core.protos.Protos.Key.Builder builderForValue) {
@@ -16661,7 +16661,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       public Builder mergeMasterKey(com.araguaneybits.core.protos.Protos.Key value) {
         if (masterKeyBuilder_ == null) {
@@ -16680,7 +16680,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       public Builder clearMasterKey() {
         if (masterKeyBuilder_ == null) {
@@ -16693,7 +16693,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       public com.araguaneybits.core.protos.Protos.Key.Builder getMasterKeyBuilder() {
         bitField0_ |= 0x00000008;
@@ -16701,7 +16701,7 @@ public final class Protos {
         return getMasterKeyFieldBuilder().getBuilder();
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       public com.araguaneybits.core.protos.Protos.KeyOrBuilder getMasterKeyOrBuilder() {
         if (masterKeyBuilder_ != null) {
@@ -16711,7 +16711,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>required .com.coinomi.core.protos.Key master_key = 3;</code>
+       * <code>required .com.araguaneybits.core.protos.Key master_key = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.Key, com.araguaneybits.core.protos.Protos.Key.Builder, com.araguaneybits.core.protos.Protos.KeyOrBuilder>
@@ -16729,19 +16729,19 @@ public final class Protos {
 
       private com.araguaneybits.core.protos.Protos.Wallet.EncryptionType encryptionType_ = com.araguaneybits.core.protos.Protos.Wallet.EncryptionType.UNENCRYPTED;
       /**
-       * <code>optional .com.coinomi.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
+       * <code>optional .com.araguaneybits.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
        */
       public boolean hasEncryptionType() {
         return ((bitField0_ & 0x00000010) == 0x00000010);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
+       * <code>optional .com.araguaneybits.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
        */
       public com.araguaneybits.core.protos.Protos.Wallet.EncryptionType getEncryptionType() {
         return encryptionType_;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
+       * <code>optional .com.araguaneybits.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
        */
       public Builder setEncryptionType(com.araguaneybits.core.protos.Protos.Wallet.EncryptionType value) {
         if (value == null) {
@@ -16753,7 +16753,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
+       * <code>optional .com.araguaneybits.core.protos.Wallet.EncryptionType encryption_type = 4 [default = UNENCRYPTED];</code>
        */
       public Builder clearEncryptionType() {
         bitField0_ = (bitField0_ & ~0x00000010);
@@ -16766,13 +16766,13 @@ public final class Protos {
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.ScryptParameters, com.araguaneybits.core.protos.Protos.ScryptParameters.Builder, com.araguaneybits.core.protos.Protos.ScryptParametersOrBuilder> encryptionParametersBuilder_;
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       public boolean hasEncryptionParameters() {
         return ((bitField0_ & 0x00000020) == 0x00000020);
       }
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       public com.araguaneybits.core.protos.Protos.ScryptParameters getEncryptionParameters() {
         if (encryptionParametersBuilder_ == null) {
@@ -16782,7 +16782,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       public Builder setEncryptionParameters(com.araguaneybits.core.protos.Protos.ScryptParameters value) {
         if (encryptionParametersBuilder_ == null) {
@@ -16798,7 +16798,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       public Builder setEncryptionParameters(
           com.araguaneybits.core.protos.Protos.ScryptParameters.Builder builderForValue) {
@@ -16812,7 +16812,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       public Builder mergeEncryptionParameters(com.araguaneybits.core.protos.Protos.ScryptParameters value) {
         if (encryptionParametersBuilder_ == null) {
@@ -16831,7 +16831,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       public Builder clearEncryptionParameters() {
         if (encryptionParametersBuilder_ == null) {
@@ -16844,7 +16844,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       public com.araguaneybits.core.protos.Protos.ScryptParameters.Builder getEncryptionParametersBuilder() {
         bitField0_ |= 0x00000020;
@@ -16852,7 +16852,7 @@ public final class Protos {
         return getEncryptionParametersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       public com.araguaneybits.core.protos.Protos.ScryptParametersOrBuilder getEncryptionParametersOrBuilder() {
         if (encryptionParametersBuilder_ != null) {
@@ -16862,7 +16862,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>optional .com.coinomi.core.protos.ScryptParameters encryption_parameters = 5;</code>
+       * <code>optional .com.araguaneybits.core.protos.ScryptParameters encryption_parameters = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.araguaneybits.core.protos.Protos.ScryptParameters, com.araguaneybits.core.protos.Protos.ScryptParameters.Builder, com.araguaneybits.core.protos.Protos.ScryptParametersOrBuilder>
@@ -16891,7 +16891,7 @@ public final class Protos {
           com.araguaneybits.core.protos.Protos.WalletPocket, com.araguaneybits.core.protos.Protos.WalletPocket.Builder, com.araguaneybits.core.protos.Protos.WalletPocketOrBuilder> pocketsBuilder_;
 
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.WalletPocket> getPocketsList() {
         if (pocketsBuilder_ == null) {
@@ -16901,7 +16901,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public int getPocketsCount() {
         if (pocketsBuilder_ == null) {
@@ -16911,7 +16911,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.WalletPocket getPockets(int index) {
         if (pocketsBuilder_ == null) {
@@ -16921,7 +16921,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder setPockets(
           int index, com.araguaneybits.core.protos.Protos.WalletPocket value) {
@@ -16938,7 +16938,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder setPockets(
           int index, com.araguaneybits.core.protos.Protos.WalletPocket.Builder builderForValue) {
@@ -16952,7 +16952,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder addPockets(com.araguaneybits.core.protos.Protos.WalletPocket value) {
         if (pocketsBuilder_ == null) {
@@ -16968,7 +16968,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder addPockets(
           int index, com.araguaneybits.core.protos.Protos.WalletPocket value) {
@@ -16985,7 +16985,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder addPockets(
           com.araguaneybits.core.protos.Protos.WalletPocket.Builder builderForValue) {
@@ -16999,7 +16999,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder addPockets(
           int index, com.araguaneybits.core.protos.Protos.WalletPocket.Builder builderForValue) {
@@ -17013,7 +17013,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder addAllPockets(
           java.lang.Iterable<? extends com.araguaneybits.core.protos.Protos.WalletPocket> values) {
@@ -17028,7 +17028,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder clearPockets() {
         if (pocketsBuilder_ == null) {
@@ -17041,7 +17041,7 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public Builder removePockets(int index) {
         if (pocketsBuilder_ == null) {
@@ -17054,14 +17054,14 @@ public final class Protos {
         return this;
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.WalletPocket.Builder getPocketsBuilder(
           int index) {
         return getPocketsFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.WalletPocketOrBuilder getPocketsOrBuilder(
           int index) {
@@ -17071,7 +17071,7 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public java.util.List<? extends com.araguaneybits.core.protos.Protos.WalletPocketOrBuilder>
            getPocketsOrBuilderList() {
@@ -17082,14 +17082,14 @@ public final class Protos {
         }
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.WalletPocket.Builder addPocketsBuilder() {
         return getPocketsFieldBuilder().addBuilder(
             com.araguaneybits.core.protos.Protos.WalletPocket.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public com.araguaneybits.core.protos.Protos.WalletPocket.Builder addPocketsBuilder(
           int index) {
@@ -17097,7 +17097,7 @@ public final class Protos {
             index, com.araguaneybits.core.protos.Protos.WalletPocket.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.coinomi.core.protos.WalletPocket pockets = 6;</code>
+       * <code>repeated .com.araguaneybits.core.protos.WalletPocket pockets = 6;</code>
        */
       public java.util.List<com.araguaneybits.core.protos.Protos.WalletPocket.Builder>
            getPocketsBuilderList() {
@@ -17118,7 +17118,7 @@ public final class Protos {
         return pocketsBuilder_;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.coinomi.core.protos.Wallet)
+      // @@protoc_insertion_point(builder_scope:com.araguaneybits.core.protos.Wallet)
     }
 
     static {
@@ -17126,7 +17126,7 @@ public final class Protos {
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:com.coinomi.core.protos.Wallet)
+    // @@protoc_insertion_point(class_scope:com.araguaneybits.core.protos.Wallet)
   }
 
   private static final com.google.protobuf.Descriptors.Descriptor
@@ -17203,7 +17203,7 @@ public final class Protos {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\014wallet.proto\022\027com.coinomi.core.protos\"" +
+      "\n\014wallet.proto\022\027com.araguaneybits.core.protos\"" +
       "A\n\013PeerAddress\022\022\n\nip_address\030\001 \002(\014\022\014\n\004po" +
       "rt\030\002 \002(\r\022\020\n\010services\030\003 \002(\004\"M\n\rEncryptedD" +
       "ata\022\035\n\025initialisation_vector\030\001 \002(\014\022\035\n\025en" +
@@ -17211,9 +17211,9 @@ public final class Protos {
       "icKey\022\022\n\nchain_code\030\001 \002(\014\022\014\n\004path\030\002 \003(\r\022" +
       "\026\n\016issued_subkeys\030\003 \001(\r\022\026\n\016lookahead_siz" +
       "e\030\004 \001(\r\022\023\n\013isFollowing\030\005 \001(\010\"\330\002\n\003Key\022/\n\004" +
-      "type\030\001 \002(\0162!.com.coinomi.core.protos.Key" +
+      "type\030\001 \002(\0162!.com.araguaneybits.core.protos.Key" +
       ".Type\022\024\n\014secret_bytes\030\002 \001(\014\022>\n\016encrypted",
-      "_data\030\003 \001(\0132&.com.coinomi.core.protos.En" +
+      "_data\030\003 \001(\0132&.com.araguaneybits.core.protos.En" +
       "cryptedData\022\022\n\npublic_key\030\004 \001(\014\022\r\n\005label" +
       "\030\005 \001(\t\022D\n\021deterministic_key\030\006 \001(\0132).com." +
       "coinomi.core.protos.DeterministicKey\"a\n\004" +
@@ -17235,7 +17235,7 @@ public final class Protos {
       "i.core.protos.TransactionConfidence.Type",
       "\022\032\n\022appeared_at_height\030\002 \001(\005\022\036\n\026overridi" +
       "ng_transaction\030\003 \001(\014\022\r\n\005depth\030\004 \001(\005\022:\n\014b" +
-      "roadcast_by\030\005 \003(\0132$.com.coinomi.core.pro" +
+      "roadcast_by\030\005 \003(\0132$.com.araguaneybits.core.pro" +
       "tos.PeerAddress\022E\n\006source\030\006 \001(\01625.com.co" +
       "inomi.core.protos.TransactionConfidence." +
       "Source\"8\n\004Type\022\013\n\007UNKNOWN\020\000\022\014\n\010BUILDING\020" +
@@ -17246,7 +17246,7 @@ public final class Protos {
       "\n\004hash\030\002 \002(\014\0227\n\004pool\030\003 \001(\0162).com.coinomi" +
       ".core.protos.Transaction.Pool\022\021\n\tlock_ti" +
       "me\030\004 \001(\r\022\022\n\nupdated_at\030\005 \001(\003\022D\n\021transact" +
-      "ion_input\030\006 \003(\0132).com.coinomi.core.proto" +
+      "ion_input\030\006 \003(\0132).com.araguaneybits.core.proto" +
       "s.TransactionInput\022\026\n\016num_of_outputs\030\022 \001" +
       "(\005\022F\n\022transaction_output\030\007 \003(\0132*.com.coi" +
       "nomi.core.protos.TransactionOutput\022\022\n\nbl" +
@@ -17264,25 +17264,25 @@ public final class Protos {
       "omi.core.protos.Key\022\034\n\024last_seen_block_h" +
       "ash\030\004 \001(\014\022\036\n\026last_seen_block_height\030\005 \001(",
       "\r\022!\n\031last_seen_block_time_secs\030\006 \001(\003\0229\n\013" +
-      "transaction\030\007 \003(\0132$.com.coinomi.core.pro" +
+      "transaction\030\007 \003(\0132$.com.araguaneybits.core.pro" +
       "tos.Transaction\022>\n\016address_status\030\010 \003(\0132" +
-      "&.com.coinomi.core.protos.AddressStatus\022" +
+      "&.com.araguaneybits.core.protos.AddressStatus\022" +
       "\n\n\002id\030\t \001(\t\022>\n\016unspent_output\030\n \003(\0132&.co" +
-      "m.coinomi.core.protos.UnspentOutput\"N\n\020S" +
+      "m.araguaneybits.core.protos.UnspentOutput\"N\n\020S" +
       "cryptParameters\022\014\n\004salt\030\001 \002(\014\022\020\n\001n\030\002 \001(\003" +
       ":\00516384\022\014\n\001r\030\003 \001(\005:\0018\022\014\n\001p\030\004 \001(\005:\0011\"\303\003\n\006" +
       "Wallet\022\022\n\007version\030\001 \001(\005:\0011\022*\n\004seed\030\002 \001(\013" +
-      "2\034.com.coinomi.core.protos.Key\022\037\n\027seed_p",
+      "2\034.com.araguaneybits.core.protos.Key\022\037\n\027seed_p",
       "assword_protected\030\007 \001(\010\0220\n\nmaster_key\030\003 " +
-      "\002(\0132\034.com.coinomi.core.protos.Key\022T\n\017enc" +
-      "ryption_type\030\004 \001(\0162..com.coinomi.core.pr" +
+      "\002(\0132\034.com.araguaneybits.core.protos.Key\022T\n\017enc" +
+      "ryption_type\030\004 \001(\0162..com.araguaneybits.core.pr" +
       "otos.Wallet.EncryptionType:\013UNENCRYPTED\022" +
       "H\n\025encryption_parameters\030\005 \001(\0132).com.coi" +
       "nomi.core.protos.ScryptParameters\0226\n\007poc" +
-      "kets\030\006 \003(\0132%.com.coinomi.core.protos.Wal" +
+      "kets\030\006 \003(\0132%.com.araguaneybits.core.protos.Wal" +
       "letPocket\"N\n\016EncryptionType\022\017\n\013UNENCRYPT" +
       "ED\020\001\022\030\n\024ENCRYPTED_SCRYPT_AES\020\002\022\021\n\rENCRYP" +
-      "TED_AES\020\003B!\n\027com.coinomi.core.protosB\006Pr",
+      "TED_AES\020\003B!\n\027com.araguaneybits.core.protosB\006Pr",
       "otos"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

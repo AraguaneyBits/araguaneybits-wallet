@@ -152,8 +152,8 @@ public class AddressRequestFragment extends WalletFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.coinomi.wallet.ui.AccountFragment
-        // or in com.coinomi.wallet.ui.PreviousAddressesActivity
+        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
+        // or in com.araguaneybits.wallet.ui.PreviousAddressesActivity
         setHasOptionsMenu(true);
 
         WalletApplication walletApplication = (WalletApplication) getActivity().getApplication();

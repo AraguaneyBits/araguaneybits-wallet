@@ -243,7 +243,7 @@ final public class NxtFamilyWalletProtobufSerializer {
             pocket.setDescription(walletProto.getDescription());
         }
 
-        // TODO ready transactions? Check com.coinomi.core.wallet WalletPocketProtobufSerializer
+        // TODO ready transactions? Check com.araguaneybits.core.wallet WalletPocketProtobufSerializer
 
         return pocket;
     }
