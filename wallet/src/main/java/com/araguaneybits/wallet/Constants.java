@@ -9,6 +9,7 @@ import com.araguaneybits.core.coins.BatacoinMain;
 import com.araguaneybits.core.coins.BitcoinMain;
 import com.araguaneybits.core.coins.BitcoinTest;
 import com.araguaneybits.core.coins.BlackcoinMain;
+import com.araguaneybits.core.coins.BolivarcoinMain;
 import com.araguaneybits.core.coins.BurstMain;
 import com.araguaneybits.core.coins.CanadaeCoinMain;
 import com.araguaneybits.core.coins.CannacoinMain;
@@ -124,7 +125,7 @@ public class Constants {
     public static final char CURRENCY_MINUS_SIGN = '-';
 
     public static final String MARKET_APP_URL = "market://details?id=%s";
-    public static final String BINARY_URL = "https://github.com/jestevez/coinomi-android/releases";
+    public static final String BINARY_URL = "https://github.com/AraguaneyBits/AraguaneyBits-MultiWallet/releases";
 
     public static final String VERSION_URL = "https://joseluisestevez.com/version-multiwallet";
     public static final String SUPPORT_EMAIL = "support@joseluisestevez.com";
@@ -223,7 +224,9 @@ public class Constants {
             new CoinAddress(LkrcoinMain.get(),     new ServerAddress("190.202.15.196", 23000),
                     new ServerAddress("190.202.15.196", 23001)),
             new CoinAddress(ArepacoinMain.get(),     new ServerAddress("107.150.6.159", 50001),
-                    new ServerAddress("107.150.6.159", 50002))
+                    new ServerAddress("107.150.6.159", 50002)),
+            new CoinAddress(BolivarcoinMain.get(),     new ServerAddress("138.197.127.246", 23001),
+                    new ServerAddress("electrum1.bolicoin.com", 23001))
     );
 
     public static final HashMap<CoinType, Integer> COINS_ICONS;
@@ -276,6 +279,7 @@ public class Constants {
         COINS_ICONS.put(CoinID.ONIXCOIN_MAIN.getCoinType(), R.drawable.onixcoin);
         COINS_ICONS.put(CoinID.LKRCOIN_MAIN.getCoinType(), R.drawable.lkrcoin);
         COINS_ICONS.put(CoinID.AREPACOIN_MAIN.getCoinType(), R.drawable.arepacoin);
+        COINS_ICONS.put(CoinID.BOLIVARCOIN_MAIN.getCoinType(), R.drawable.bolivarcoin);
 
         COINS_BLOCK_EXPLORERS = new HashMap<CoinType, String>();
         COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_MAIN.getCoinType(), "https://blockchain.info/tx/%s");
@@ -318,23 +322,25 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.EGULDEN_MAIN.getCoinType(), "https://chainz.cryptoid.info/efl/tx.dws?%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.RICHCOIN_MAIN.getCoinType(), "https://explorer.richcoin.us/transaction?transaction=%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.IXCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ixc/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.ONIXCOIN_MAIN.getCoinType(), "http://explorer.onixcoin.com/tx/%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.ONIXCOIN_MAIN.getCoinType(), "https://onixcoin.info/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.LKRCOIN_MAIN.getCoinType(), "http://159.89.237.49:3001/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.AREPACOIN_MAIN.getCoinType(), "http://104.223.87.244/tx/%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.BOLIVARCOIN_MAIN.getCoinType(), "http://159.65.203.140:3001//tx/%s");
     }
 
     public static final CoinType DEFAULT_COIN = BitcoinMain.get();
     public static final List<CoinType> DEFAULT_COINS = ImmutableList.of((CoinType) BitcoinMain.get());
     public static final ArrayList<String> DEFAULT_TEST_COIN_IDS = Lists.newArrayList(
-            BitcoinTest.get().getId(),
-            LitecoinTest.get().getId(),
-            DogecoinTest.get().getId()
+            //BitcoinTest.get().getId(),
+            //LitecoinTest.get().getId(),
+            //DogecoinTest.get().getId()
     );
 
     public static final List<CoinType> SUPPORTED_COINS = ImmutableList.of(
             BitcoinMain.get(),
             ArepacoinMain.get(),
-            AsiacoinMain.get(),
+            BolivarcoinMain.get(),
+            /*AsiacoinMain.get(),
             AuroracoinMain.get(),
             BatacoinMain.get(),
             BlackcoinMain.get(),
@@ -342,19 +348,19 @@ public class Constants {
             CanadaeCoinMain.get(),
             CannacoinMain.get(),
             ClamsMain.get(),
-            ClubcoinMain.get(),
+            ClubcoinMain.get(),*/
             DashMain.get(),
-            DigibyteMain.get(),
-            DigitalcoinMain.get(),
+            //DigibyteMain.get(),
+            //DigitalcoinMain.get(),
             DogecoinMain.get(),
-            EguldenMain.get(),
+            /*EguldenMain.get(),
             FeathercoinMain.get(),
             GcrMain.get(),
             GuldenMain.get(),
             IxcoinMain.get(),
-            JumbucksMain.get(),
+            JumbucksMain.get(),*/
             LitecoinMain.get(),
-            LkrcoinMain.get(),
+            /*LkrcoinMain.get(),
             MonacoinMain.get(),
             NamecoinMain.get(),
             NeoscoinMain.get(),
@@ -362,11 +368,11 @@ public class Constants {
             NuBitsMain.get(),
             NuSharesMain.get(),
 //            NxtMain.get(),
-            OKCashMain.get(),
+            OKCashMain.get(),*/
             OnixcoinMain.get(),
-            ParkbyteMain.get(),
-            PeercoinMain.get(),
-            PotcoinMain.get(),
+            //ParkbyteMain.get(),
+            PeercoinMain.get()
+            /*PotcoinMain.get(),
             ReddcoinMain.get(),
             RichcoinMain.get(),
             RubycoinMain.get(),
@@ -376,6 +382,6 @@ public class Constants {
             VpncoinMain.get(),
             BitcoinTest.get(),
             LitecoinTest.get(),
-            DogecoinTest.get()
+            DogecoinTest.get()*/
     );
 }
