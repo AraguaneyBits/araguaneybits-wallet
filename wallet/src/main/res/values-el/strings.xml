@@ -63,7 +63,7 @@
     <string name="trade">μετατροπή</string>
     <string name="receive">λήψη</string>
     <!-- Welcome fragment -->
-    <string name="welcome_text">Καλώς ήλθατε στο Coinomi</string>
+    <string name="welcome_text">Καλώς ήλθατε στο AraguaneyBitsWallet</string>
     <string name="create_wallet">Νέο πορτοφόλι</string>
     <string name="restore_wallet">Ανάκτηση πορτοφολιού</string>
     <string name="test_wallet">Δοκιμαστικό πορτοφόλι</string>
@@ -89,7 +89,7 @@
     <!-- Wallet activity -->
     <string name="test_wallet_message">Το παρόν είναι ένα δοκιμαστικό πορτοφόλι, όπου μπορείτε να στείλετε και παραλάβετε δοκιμαστικά νομίσματα Bitcoin, Litecoin, Dogecoin κ.ά.\n\nΑν επιθυμείτε να χρησιμοποιήσετε το πορτοφόλι με αληθινά χρήματα παρακαλώ επιλέξτε: <b>Ρυθμίσεις &gt; Ανάκτηση πορτοφολιού &gt; Δημιουργία νέου πορτοφολιού</b>.</string>
     <string name="wallet_update_title">Νέα έκδοση διαθέσιμη</string>
-    <string name="wallet_update_message">Μια νέα έκδοση του Coinomi η οποία εμπεριέχει νέες δυνατότητες και τυχόν διορθώσεις αδυναμιών είναι διαθέσιμη.</string>
+    <string name="wallet_update_message">Μια νέα έκδοση του AraguaneyBitsWallet η οποία εμπεριέχει νέες δυνατότητες και τυχόν διορθώσεις αδυναμιών είναι διαθέσιμη.</string>
     <string name="pay_with">Αποστολή με</string>
     <string name="exchange_and_pay_title">Μετατροπή και αποστολή</string>
     <!-- PayToDialog-->
@@ -172,9 +172,9 @@
         <item quantity="other">%d δευτερόλεπτα</item>
     </plurals>
     <!-- About Activity -->
-    <string name="title_activity_about">Σχετικά με το Coinomi</string>
-    <string name="app_name_long">Coinomi για το λειτουργικό Android</string>
-    <string name="about_licence">Ένα πρόγραμμα ανοιχτού λογισμικού\nhttps://github.com/Coinomi/coinomi-android\nΟ πηγαίος κώδικας διατίθεται βάσει της άδειας GNU General Public License 3</string>
+    <string name="title_activity_about">Σχετικά με το AraguaneyBitsWallet</string>
+    <string name="app_name_long">AraguaneyBitsWallet για το λειτουργικό Android</string>
+    <string name="about_licence">Ένα πρόγραμμα ανοιχτού λογισμικού\nhttps://github.com/AraguaneyBitsWallet/coinomi-android\nΟ πηγαίος κώδικας διατίθεται βάσει της άδειας GNU General Public License 3</string>
     <string name="about_credits_nubits">Οι κεντρικοί εξυπηρετητές είναι μια προσφορά της NuBits\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Μεταφράσεις από τους:</string>
     <string name="about_credits_bitcoinj">Χρησιμοποιείται η βιβλιοθήκη Bitcoinj\nhttp://bitcoinj.github.io/</string>

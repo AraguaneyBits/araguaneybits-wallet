@@ -6,7 +6,7 @@
     <string name="action_edit_label">Modifica etichetta</string>
     <string name="action_empty_wallet">Svuota portafoglio</string>
     <string name="action_settings">Impostazioni</string>
-    <string name="action_about">Riguardo Coinomi</string>
+    <string name="action_about">Riguardo AraguaneyBitsWallet</string>
     <string name="action_refresh">Aggiorna</string>
     <string name="action_sign_verify_message">Firma/verifica messaggio</string>
     <string name="action_account_details">Dettagli account</string>
@@ -63,7 +63,7 @@
     <string name="trade">scambia</string>
     <string name="receive">ricevi</string>
     <!-- Welcome fragment -->
-    <string name="welcome_text">Benvenuto nel portafoglio di Coinomi</string>
+    <string name="welcome_text">Benvenuto nel portafoglio di AraguaneyBitsWallet</string>
     <string name="create_wallet">Crea un nuovo portafoglio</string>
     <string name="restore_wallet">Ripristina un portafoglio</string>
     <string name="test_wallet">Test portafoglio</string>
@@ -89,7 +89,7 @@
     <!-- Wallet activity -->
     <string name="test_wallet_message">Questo è un portafoglio di prova, dove puoi inviare e ricevere Bitcoins, Litecoin e Dogecoins di prova.\n\nSe vuoi usare il portafoglio con monete reali per favore vai a:<b>Impostazioni &gt; Ripristina portafoglio &gt; Crea un nuovo portafoglio</b>.</string>
     <string name="wallet_update_title">La nuova versione è disponibile</string>
-    <string name="wallet_update_message">Una nuova versione di Coinomi è disponibile, contiene  nuove caratteristiche e correzioni.</string>
+    <string name="wallet_update_message">Una nuova versione di AraguaneyBitsWallet è disponibile, contiene  nuove caratteristiche e correzioni.</string>
     <string name="pay_with">Invia con</string>
     <string name="exchange_and_pay_title">Scambia e invia</string>
     <!-- PayToDialog-->
@@ -171,9 +171,9 @@
         <item quantity="other">prossimi %d secondi</item>
     </plurals>
     <!-- About Activity -->
-    <string name="title_activity_about">Riguardo Coinomi</string>
-    <string name="app_name_long">Coinomi per Android</string>
-    <string name="about_licence">Un progetto open source\nhttps://github.com/Coinomi/coinomi-android\nSource code con licenza GNU General Public License 3</string>
+    <string name="title_activity_about">Riguardo AraguaneyBitsWallet</string>
+    <string name="app_name_long">AraguaneyBitsWallet per Android</string>
+    <string name="about_licence">Un progetto open source\nhttps://github.com/AraguaneyBitsWallet/coinomi-android\nSource code con licenza GNU General Public License 3</string>
     <string name="about_credits_nubits">Server infrastructure donated by NuBits - The World\'s First Stable Digital Currency\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Traduzione fornita da:</string>
     <string name="about_credits_bitcoinj">Usa la biblioteca Bitcoinj\nhttp://bitcoinj.github.io/</string>

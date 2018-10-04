@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">AragueneyBits MultiWallet (dev)</string>
-    <string name="app_package" translatable="false">com.araguaneybits.wallet.dev</string>
+    <string name="app_package" translatable="false">com.araguaneybits.wallet.devaction_swap_coins</string>
     <string name="coinomi_website" translatable="false">https://araguaneybits.com</string>
     <string name="almost_equal_to" translatable="false">≈</string>
     <string name="action_scan_qr_code">Scan</string>
@@ -214,7 +214,7 @@
     <string name="about_credits_crypto_icons">Crypto-icons by Chris Shepherd\nhttps://github.com/shphrd/crypto-icons</string>
     <string name="about_credits_font_icons">Font-icons by Daniel Bruce\nhttp://www.entypo.com</string>
     <string name="about_credits_exchange_rates">Exchange rates provided by\nhttp://www.cryptocoincharts.info/\nhttps://bitcoinaverage.com/</string>
-    <string name="about_coinomi_copyright" translatable="false">\u00A9 2014–2016 Coinomi / 2018 Araguaneybits</string>
+    <string name="about_coinomi_copyright" translatable="false">\u00A9 2018 AraguaneyBitsWallet / 2018 Araguaneybits</string>
     <!-- Add Coins -->
     <string name="title_activity_add_coins">Add coins</string>
     <!-- %1$s is the coin name e.g. ... create a Bitcoin account ... -->
@@ -449,6 +449,6 @@ The user of the wallet agrees to arbitrate any dispute arising from or in connec
 \n
 8. Last amendment\n
 \n
-This disclaimer was amended for the last time on January 1st, 2016.</string>
+</string>
 
 </resources>
