@@ -203,7 +203,7 @@
     <!-- About Activity -->
     <string name="title_activity_about">About Araguaneybits</string>
     <string name="app_name_long">Araguaneybits MultiWallet for Android</string>
-    <string name="about_licence">An open source project\nhttps://github.com/Araguaneybits/coinomi-android</string>
+    <string name="about_licence">An open source project\nhttps://github.com/AraguaneyBits/AraguaneyBits-MultiWallet</string>
     <string name="about_credits_nubits">Server infrastructure donated by NuBits - The World\'s First Stable Digital Currency\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Translations provided by:</string>
     <string name="about_credits_translations_credits" translatable="false">Tamara Castellano (Italian)\nJorge Nicolas Karmis (Spanish)\nGeorge Kimionis (Greek)\n@visvirial (Japanese)\nДенис Рейн (Russian, Ukrainian)</string>

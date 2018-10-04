@@ -174,7 +174,7 @@
     <!-- About Activity -->
     <string name="title_activity_about">Σχετικά με το AraguaneyBitsWallet</string>
     <string name="app_name_long">AraguaneyBitsWallet για το λειτουργικό Android</string>
-    <string name="about_licence">Ένα πρόγραμμα ανοιχτού λογισμικού\nhttps://github.com/AraguaneyBitsWallet/coinomi-android\nΟ πηγαίος κώδικας διατίθεται βάσει της άδειας GNU General Public License 3</string>
+    <string name="about_licence">Ένα πρόγραμμα ανοιχτού λογισμικού\nhttps://github.com/AraguaneyBits/AraguaneyBits-MultiWallet\nΟ πηγαίος κώδικας διατίθεται βάσει της άδειας GNU General Public License 3</string>
     <string name="about_credits_nubits">Οι κεντρικοί εξυπηρετητές είναι μια προσφορά της NuBits\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Μεταφράσεις από τους:</string>
     <string name="about_credits_bitcoinj">Χρησιμοποιείται η βιβλιοθήκη Bitcoinj\nhttp://bitcoinj.github.io/</string>

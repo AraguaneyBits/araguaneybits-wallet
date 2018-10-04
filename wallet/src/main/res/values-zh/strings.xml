@@ -171,7 +171,7 @@
     <!-- About Activity -->
     <string name="title_activity_about">关于我们</string>
     <string name="app_name_long">安卓版</string>
-    <string name="about_licence">开源项目\nhttps://github.com/AraguaneyBitsWallet/coinomi-android\n源码基于 GNU普通公众许可3开源</string>
+    <string name="about_licence">开源项目\nhttps://github.com/AraguaneyBits/AraguaneyBits-MultiWallet\n源码基于 GNU普通公众许可3开源</string>
     <string name="about_credits_nubits">服务器由Nubits提供-NBT是世界上首个价格稳定的数字货币\nhttps://nubits.com/</string>
     <string name="about_credits_translations">翻译者：</string>
     <string name="about_credits_bitcoinj">使用Bitcoinj库\nhttp://bitcoinj.github.io/</string>

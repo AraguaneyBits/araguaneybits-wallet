@@ -177,7 +177,7 @@
     <!-- About Activity -->
     <string name="title_activity_about">О AraguaneyBitsWallet</string>
     <string name="app_name_long">AraguaneyBitsWallet для Android</string>
-    <string name="about_licence">Программа с открытым исходным кодом\nhttps://github.com/AraguaneyBitsWallet/coinomi-android\nИсходный код открыт на основе лицензии GNU General Public License 3</string>
+    <string name="about_licence">Программа с открытым исходным кодом\nhttps://github.com/AraguaneyBits/AraguaneyBits-MultiWallet\nИсходный код открыт на основе лицензии GNU General Public License 3</string>
     <string name="about_credits_nubits">Инфраструктура серверов предоставлена NuBits - Первой Всемирной Стабильной Цифровой Валютой \nhttps://nubits.com/</string>
     <string name="about_credits_translations">Переводы выполнили:</string>
     <string name="about_credits_bitcoinj">Используется библиотека Bitcoinj\nhttp://bitcoinj.github.io/</string>
