@@ -179,5 +179,14 @@
             android:paddingTop="16dp"
             android:text="@string/about_coinomi_copyright" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/NormalText"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:text="@string/about_araguaney_copyright" />
+
+
     </LinearLayout>
 </ScrollView>

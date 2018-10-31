@@ -12,10 +12,10 @@ android {
         abortOnError false
     }
     compileSdkVersion 26
-    buildToolsVersion '27.0.3'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.araguaneybits.wallet.dev"
+        applicationId "com.araguaneybits.wallet"
         minSdkVersion 10
         targetSdkVersion 26
         versionCode 1
