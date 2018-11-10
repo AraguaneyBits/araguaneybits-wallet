@@ -307,5 +307,84 @@
     <string name="account_public_key_warning">Compartir su clave pública permitirá que alguien pueda ver su saldo e historial de transacciones.</string>
     <string name="account_private_key_label">llave privada</string>
     <string name="account_extended_private_key_label">llave privada extendida</string>
-    <string name="account_private_key_warning">La llave privada le permite enviar las monedas desde esta cuenta. No es necesario realizar copias de seguridad de  esta llave , ya que se deriva de su <i>frase recuperación</i></string>
+    <string name="account_private_key_warning">La llave privada le permite enviar las moedas desde esta cuenta. No es necesario realizar copias de seguridad de  esta llave , ya que se deriva de su <i>frase recuperación</i></string>
+    <string name="action_sweep_wallet">Importar billetera de papel</string>
+    <string name="action_support">Contactar con el equipo de  soporte</string>
+    <string name="error_camera">No se ha podido acceder a la camara</string>
+    <string name="wallet_is_not_locked_message">Su billetera no esta bloqueada</string>
+    <string name="override_wallet_warning_title">¿Anular billetera existente?</string>
+    <string name="override_new_wallet_warning_message">Si crea una nueva billetera, su billetera existente se perderá a menos que haya hecho una copia de seguridad de su <i> frase de recuperación </i>.</string>
+    <string name="override_restore_wallet_warning_message">"Si restaura una billetera, su billetera existente se perderá a menos que haya hecho una copia de seguridad de su <i> frase de recuperación </i>. "</string>
+    <string name="received_from">"Recibido de "</string>
+    <string name="set_bip39_passphrase">" Escriba su contraseña BIP39"</string>
+    <string name="support_message">Contactar equipo de AraguaneyBits</string>
+    <string name="title_activity_sweep_wallet">Billetera de papel</string>
+    <string name="sweep_wallet_info">"Está a punto de transferir monedas de una billetera de papel a su billetera AraguaneyBits. Una vez finalizada la transferencia, evite volver a utilizar la billetera de papel por razones de seguridad. Formatos soportados: WIF, BIP38, Mini clave privada. "</string>
+    <string name="sweep_wallet_key_hint">"escriba o escanee una clave privada "</string>
+    <string name="sweep_wallet_key_title">Clave privada</string>
+    <string name="sweep_wallet_key_password">Contraseña de clave privada</string>
+    <string name="sweep_wallet_bad_format">" No se pudo reconocer el formato de clave privada."</string>
+    <string name="sweep_wallet_bad_coin_type">El tipo de clave privada no coincide con el tipo de cuenta de destino.</string>
+    <string name="sweep_wallet_bad_password">Contraseña incorrecta.</string>
+    <string name="sweep_wallet_key_wait">Por favor espere mientras se barre su billetera de papel</string>
+    <string name="sweep_wallet_zero_coins">La clave privada no contiene ningún fondo.</string>
+    <string name="sweep_wallet_key_decoding">Decodificación de clave privada &#8230;</string>
+    <string name="sweep_wallet_key_signing">Creación de transacción &#8230;</string>
+    <string name="sweep_wallet_key_loading">Cargando saldo &#8230;</string>
+    <string name="title_activity_transaction_fees">Tarifas de transacción</string>
+    <string name="tx_fees_title">"%1$s tarifas de transacción "</string>
+    <string name="tx_fees_description">El valor de la tarifa es %1$s.</string>
+    <string name="tx_fees_per_kilobyte">por kilobyte de datos de transacción</string>
+    <string name="tx_fees_per_byte">por byte de datos de transacción</string>
+    <string name="tx_fees_per_transaction">"por transacción "</string>
+    <string name="terms_of_service_title">"Términos de servicio "</string>
+    <string name="terms_of_service" translatable="false">NOTA LEGAL\n
+\n
+\n
+1. Riesgos relacionados con el uso de AraguaneyBits Wallet\n
+\n
+AraguaneyBits no será responsable por ninguna pérdida, daños o reclamaciones derivadas de sucesos comprendidos en el ámbito de las cinco categorías siguientes:\n
+\n
+(1) Errores cometidos por el usuario de cualquier software o servicio relacionado con la criptomoneda, por ejemplo, contraseñas olvidadas, pagos enviados a direcciones de monedas incorrectas y eliminación accidental de billeteras.\n
+\n
+(2) Problemas de software de la billetera y / o cualquier software o servicio relacionado con la criptomoneda, por ejemplo, archivo de billetera dañado, transacciones construidas incorrectamente, bibliotecas criptográficas inseguras, software malicioso que afecta la billetera y / o cualquier software o servicio relacionado con la criptomoneda.\n
+\n
+(3) Fallas técnicas en el hardware del usuario de cualquier software o servicio relacionado con la criptomoneda, por ejemplo, la pérdida de datos debido a un dispositivo de almacenamiento defectuoso o dañado.\n
+\n
+(4) Problemas de seguridad experimentados por el usuario de cualquier software o servicio relacionado con la criptomoneda, por ejemplo, acceso no autorizado a las billeteras y / o cuentas de los usuarios.\n
+\n
+(5) Acciones u omisiones de terceros y / o eventos experimentados por terceros, por ejemplo, quiebra de proveedores de servicios, ataques de seguridad de la información contra proveedores de servicios y fraude realizado por terceros.\n
+\n
+\n
+2. Riesgos comerciales y de inversión\n
+\n
+Existe una considerable exposición al riesgo en cualquier transacción de cambio de moneda criptográfica. Cualquier transacción que involucre monedas implica riesgos que incluyen, pero no se limitan a, el potencial de cambiar las condiciones económicas que pueden afectar sustancialmente el precio o la liquidez de una moneda. Las inversiones en la especulación del cambio de moneda criptográfica también pueden ser susceptibles de fuertes aumentos y caídas a medida que fluctúan los valores de mercado relevantes. Es por esta razón que cuando se especula en tales mercados es recomendable usar solo capital de riesgo. \n
+\n
+\n
+3. Riesgos de comercio electrónico\n
+\n
+Antes de realizar transacciones utilizando un sistema electrónico, debe revisar cuidadosamente las reglas y regulaciones de los intercambios que ofrecen el sistema y / o enumerar los instrumentos que pretende negociar. El comercio en línea tiene un riesgo inherente debido a la respuesta del sistema y los tiempos de acceso que pueden variar debido a las condiciones del mercado, el rendimiento del sistema y otros factores. Debe comprender estos y otros riesgos antes de comerciar..\n
+\n
+\n
+4. Cumplimiento de obligaciones tributarias.\n
+\n
+Los usuarios de la billetera son los únicos responsables de determinar qué impuestos, si corresponde, se aplican a sus transacciones de cripto-moneda. Los propietarios o contribuyentes de la billetera NO son responsables de determinar los impuestos que se aplican a las transacciones de moneda criptográfica.\n
+\n
+\n
+5. Sin garantías\n
+\n
+La billetera se proporciona "tal cual" sin ninguna garantía de ningún tipo con respecto a la billetera y / o cualquier contenido, datos, materiales y / o servicios proporcionados en la billetera.\n
+\n
+\n
+6. Limitación de responsabilidad\n
+\n
+A menos que la ley exija lo contrario, en ningún caso los propietarios o contribuyentes a la billetera serán responsables de los daños de cualquier tipo, incluidos, entre otros, la pérdida de uso, la pérdida de beneficios o la pérdida de datos que surjan de o de alguna manera conectado con el uso de la billetera. De ninguna manera los dueños o contribuyentes de la billetera son responsables de las acciones, decisiones u otros comportamientos tomados o no tomados por usted en dependencia de la billetera.
+\n
+\n
+7. Arbitraje\n
+\n
+El usuario de la billetera acepta arbitrar cualquier disputa que surja de o en conexión con la billetera o esta exención de responsabilidad, a excepción de las disputas relacionadas con derechos de autor, logotipos, marcas comerciales, nombres comerciales, secretos comerciales o patentes..\n
+\n
+\n
+</string>
 </resources>
