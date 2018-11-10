@@ -1,7 +1,6 @@
 package com.araguaneybits.wallet;
 
 import android.app.ActivityManager;
-import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -12,6 +11,7 @@ import android.net.NetworkInfo;
 import android.os.StrictMode;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
+import android.support.multidex.MultiDexApplication;
 import android.widget.Toast;
 
 import com.araguaneybits.core.coins.CoinType;
@@ -55,7 +55,7 @@ import javax.annotation.Nullable;
         httpMethod = HttpSender.Method.PUT,
         reportType = HttpSender.Type.JSON
 )
-public class WalletApplication extends Application {
+public class WalletApplication extends MultiDexApplication {
     private static final Logger log = LoggerFactory.getLogger(WalletApplication.class);
 
     private static HashMap<String, Typeface> typefaces;
