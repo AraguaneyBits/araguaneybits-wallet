@@ -425,20 +425,23 @@ public class BalanceFragment extends WalletFragment implements LoaderCallbacks<L
         @Override
         public List<AbstractTransaction> loadInBackground() {
             final List<AbstractTransaction> filteredAbstractTransactions = Lists.newArrayList(account.getTransactions().values());
-
-            Collections.sort(filteredAbstractTransactions, TRANSACTION_COMPARATOR);
-
+            try {
+                Collections.sort(filteredAbstractTransactions, TRANSACTION_COMPARATOR);
+            } catch (Exception e) {
+                log.error("Collections.sort - exception: ", e);
+            }
             return filteredAbstractTransactions;
         }
 
         private static final Comparator<AbstractTransaction> TRANSACTION_COMPARATOR = new Comparator<AbstractTransaction>() {
             @Override
             public int compare(final AbstractTransaction tx1, final AbstractTransaction tx2) {
-                final boolean pending1 = tx1.getConfidenceType() == TransactionConfidence.ConfidenceType.PENDING;
-                final boolean pending2 = tx2.getConfidenceType() == TransactionConfidence.ConfidenceType.PENDING;
+                try {
+                    final boolean pending1 = tx1.getConfidenceType() == TransactionConfidence.ConfidenceType.PENDING;
+                    final boolean pending2 = tx2.getConfidenceType() == TransactionConfidence.ConfidenceType.PENDING;
 
-                if (pending1 != pending2)
-                    return pending1 ? -1 : 1;
+                    if (pending1 != pending2)
+                        return pending1 ? -1 : 1;
 
                 // TODO use dates once implemented
 //                final Date updateTime1 = tx1.getUpdateTime();
@@ -446,15 +449,19 @@ public class BalanceFragment extends WalletFragment implements LoaderCallbacks<L
 //                final Date updateTime2 = tx2.getUpdateTime();
 //                final long time2 = updateTime2 != null ? updateTime2.getTime() : 0;
 
-                // If both not pending
-                if (!pending1 && !pending2) {
-                    final int time1 = tx1.getAppearedAtChainHeight();
-                    final int time2 = tx2.getAppearedAtChainHeight();
-                    if (time1 != time2)
-                        return time1 > time2 ? -1 : 1;
-                }
+                    // If both not pending
+                    if (!pending1 && !pending2) {
+                        final int time1 = tx1.getAppearedAtChainHeight();
+                        final int time2 = tx2.getAppearedAtChainHeight();
+                        if (time1 != time2)
+                            return time1 > time2 ? -1 : 1;
+                    }
 
-                return Arrays.equals(tx1.getHashBytes(),tx2.getHashBytes()) ? 1 : -1;
+                    return Arrays.equals(tx1.getHashBytes(),tx2.getHashBytes()) ? 1 : -1;
+                } catch (Exception e) {
+                    log.error("tx1 "+tx1+" tx2 " + tx2+ "  Exception: ", e);
+                    return -1;
+                }
             }
         };
     }
