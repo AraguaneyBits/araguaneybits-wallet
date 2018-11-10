@@ -14,7 +14,7 @@ public class BolivarcoinMain extends BitFamily {
         this.p2shHeader = 5;
         this.acceptableAddressCodes = new int[]{this.addressHeader, this.p2shHeader};
         this.spendableCoinbaseDepth = 100;
-
+        this.dumpedPrivateKeyHeader = 128;
         this.name = "Bolivarcoin";
         this.symbol = "BOLI";
         this.uriScheme = "Bolivarcoin";

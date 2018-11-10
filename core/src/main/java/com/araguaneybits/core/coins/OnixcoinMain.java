@@ -8,23 +8,23 @@ import com.araguaneybits.core.coins.families.BitFamily;
 
 public class OnixcoinMain extends BitFamily {
     private OnixcoinMain() {
-        id = "onixcoin.main";
+        this.id = "onixcoin.main";
 
-        addressHeader = 75;
-        p2shHeader = 5;
-        acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
-        spendableCoinbaseDepth = 100;
-
-        name = "Onixcoin";
-        symbol = "ONX";
-        uriScheme = "onixcoin";
-        bip44Index = 99; // El que se debe usar es 174, ver https://github.com/satoshilabs/slips
-        unitExponent = 8;
-        feeValue = value(100000);
-        minNonDust = value(1);
-        softDustLimit = value(1000000);
-        softDustPolicy = SoftDustPolicy.AT_LEAST_BASE_FEE_IF_SOFT_DUST_TXO_PRESENT;
-        signedMessageHeader = toBytes("ONIX Signed Message:\n");
+        this.addressHeader = 75;
+        this.p2shHeader = 5;
+        this.acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
+        this.spendableCoinbaseDepth = 100;
+        this.dumpedPrivateKeyHeader = 128;
+        this.name = "Onixcoin";
+        this.symbol = "ONX";
+        this.uriScheme = "onixcoin";
+        this.bip44Index = 99; // El que se debe usar es 174, ver https://github.com/satoshilabs/slips
+        this.unitExponent = 8;
+        this.feeValue = value(100000);
+        this.minNonDust = value(1);
+        this.softDustLimit = value(1000000);
+        this.softDustPolicy = SoftDustPolicy.AT_LEAST_BASE_FEE_IF_SOFT_DUST_TXO_PRESENT;
+        this.signedMessageHeader = toBytes("ONIX Signed Message:\n");
     }
 
     private static OnixcoinMain instance = new OnixcoinMain();
