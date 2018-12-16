@@ -15,7 +15,7 @@ public class ArepacoinMain extends PeerFamily {
         this.p2shHeader = 85;
         this.acceptableAddressCodes = new int[]{this.addressHeader, this.p2shHeader};
         this.spendableCoinbaseDepth = 100;
-        this.dumpedPrivateKeyHeader = 128;
+        this.dumpedPrivateKeyHeader = 128 + addressHeader;
         this.name = "Arepacoin";
         this.symbol = "AREPA";
         this.uriScheme = "arepacoin";
