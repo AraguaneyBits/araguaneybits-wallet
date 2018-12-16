@@ -14,7 +14,7 @@ public class OnixcoinMain extends BitFamily {
         this.p2shHeader = 5;
         this.acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
         this.spendableCoinbaseDepth = 100;
-        this.dumpedPrivateKeyHeader = 128;
+        this.dumpedPrivateKeyHeader = 128 + addressHeader;;
         this.name = "Onixcoin";
         this.symbol = "ONX";
         this.uriScheme = "onixcoin";
