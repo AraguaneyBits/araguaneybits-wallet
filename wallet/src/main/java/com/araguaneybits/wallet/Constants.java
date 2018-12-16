@@ -222,14 +222,10 @@ public class Constants {
             new CoinAddress(OnixcoinMain.get(),
                     new ServerAddress("159.203.80.31", 23000),
                     new ServerAddress("159.203.80.31", 23001),
-                    new ServerAddress("190.202.15.194", 23000), // TODO Cambiar por el nuevo oficial de ONIX
-                    new ServerAddress("190.202.15.194", 23001), // TODO Cambiar por el nuevo oficial de ONIX
                     new ServerAddress("node.onixcoin.info", 50001),
                     new ServerAddress("node.onixcoin.info", 50002)
             ),
             new CoinAddress(LkrcoinMain.get(),
-                    new ServerAddress("190.202.15.196", 23000), // TODO Cambiar por el oficial de LKR
-                    new ServerAddress("190.202.15.196", 23001), // TODO Cambiar por el oficial de LKR
                     new ServerAddress("lkr.araguaneybits.com", 30001),
                     new ServerAddress("lkr.araguaneybits.com", 30002)
             ),

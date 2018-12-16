@@ -50,7 +50,7 @@
         android:name="com.araguaneybits.wallet.WalletApplication"
         android:allowBackup="false"
         android:hardwareAccelerated="true"
-        android:icon="@drawable/ic_launcher_dev"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -238,15 +238,15 @@
 
         <provider
             android:name="com.araguaneybits.wallet.ExchangeRatesProvider"
-            android:authorities="com.araguaneybits.wallet.dev.exchange_rates"
+            android:authorities="com.araguaneybits.wallet.exchange_rates"
             android:exported="false" />
         <provider
             android:name="com.araguaneybits.wallet.AddressBookProvider"
-            android:authorities="com.araguaneybits.wallet.dev.address_book"
+            android:authorities="com.araguaneybits.wallet.address_book"
             android:exported="false" />
         <provider
             android:name="com.araguaneybits.wallet.ExchangeHistoryProvider"
-            android:authorities="com.araguaneybits.wallet.dev.exchange_history"
+            android:authorities="com.araguaneybits.wallet.exchange_history"
             android:exported="false" />
 
         <service
