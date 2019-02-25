@@ -43,6 +43,7 @@ import com.araguaneybits.core.coins.ParkbyteMain;
 import com.araguaneybits.core.coins.PeercoinMain;
 import com.araguaneybits.core.coins.PotcoinMain;
 import com.araguaneybits.core.coins.ReddcoinMain;
+import com.araguaneybits.core.coins.RilcoinMain;
 import com.araguaneybits.core.coins.RubycoinMain;
 import com.araguaneybits.core.coins.ShadowCashMain;
 import com.araguaneybits.core.coins.UroMain;
@@ -134,7 +135,7 @@ public class Constants {
     public static final List<CoinAddress> DEFAULT_COINS_SERVERS = ImmutableList.of(
             new CoinAddress(BitcoinMain.get(),      new ServerAddress("btc-cce-1.coinomi.net", 5001),
                     new ServerAddress("btc-cce-2.coinomi.net", 5001)),
-            new CoinAddress(BitcoinTest.get(),      new ServerAddress("btc-testnet-cce-1.coinomi.net", 15001),
+            /*new CoinAddress(BitcoinTest.get(),      new ServerAddress("btc-testnet-cce-1.coinomi.net", 15001),
                     new ServerAddress("btc-testnet-cce-2.coinomi.net", 15001)),
             new CoinAddress(DogecoinMain.get(),     new ServerAddress("doge-cce-1.coinomi.net", 5003),
                     new ServerAddress("doge-cce-2.coinomi.net", 5003)),
@@ -218,7 +219,7 @@ public class Constants {
             new CoinAddress(RichcoinMain.get(),     new ServerAddress("richx-cce-1.coinomi.net", 5046),
                     new ServerAddress("richx-cce-2.coinomi.net", 5046)),
             new CoinAddress(IxcoinMain.get(),       new ServerAddress("ixc-cce-1.coinomi.net", 5047),
-                    new ServerAddress("ixc-cce-2.coinomi.net", 5047)),
+                    new ServerAddress("ixc-cce-2.coinomi.net", 5047)), */
             new CoinAddress(OnixcoinMain.get(),
                     new ServerAddress("159.203.80.31", 23000),
                     new ServerAddress("159.203.80.31", 23001),
@@ -226,14 +227,31 @@ public class Constants {
                     new ServerAddress("node.onixcoin.info", 50002)
             ),
             new CoinAddress(LkrcoinMain.get(),
+                    new ServerAddress("94.156.35.152", 30001),
+                    new ServerAddress("94.156.35.152", 30002),
                     new ServerAddress("lkr.araguaneybits.com", 30001),
                     new ServerAddress("lkr.araguaneybits.com", 30002)
             ),
-            new CoinAddress(ArepacoinMain.get(),     new ServerAddress("107.150.6.159", 50001),
-                    new ServerAddress("107.150.6.159", 50002)),
-            new CoinAddress(BolivarcoinMain.get(),     new ServerAddress("138.197.127.246", 23001),
+            new CoinAddress(ArepacoinMain.get(),
+                    new ServerAddress("107.150.6.159", 50001),
+                    new ServerAddress("107.150.6.159", 50002),
+                    new ServerAddress("arepa.araguaneybits.com", 40001),
+                    new ServerAddress("arepa.araguaneybits.com", 40002)
+            ),
+            new CoinAddress(BolivarcoinMain.get(),
+                    new ServerAddress("138.197.127.246", 23001),
                     new ServerAddress("electrum1.bolicoin.com", 23001),
-                    new ServerAddress("electrum2.bolicoin.com", 23001))
+                    new ServerAddress("electrum2.bolicoin.com", 23001),
+                    new ServerAddress("boli.araguaneybits.com", 60001),
+                    new ServerAddress("boli.araguaneybits.com", 60002)
+            ),
+            new CoinAddress(RilcoinMain.get(),
+                    new ServerAddress("217.182.224.87", 50001),
+                    new ServerAddress("217.182.224.87", 50001),
+                    new ServerAddress("ril.araguaneybits.com", 70001),
+                    new ServerAddress("ril.araguaneybits.com", 70002)
+            )
+
     );
 
     public static final HashMap<CoinType, Integer> COINS_ICONS;
@@ -241,104 +259,107 @@ public class Constants {
     static {
         COINS_ICONS = new HashMap<>();
         COINS_ICONS.put(CoinID.BITCOIN_MAIN.getCoinType(), R.drawable.bitcoin);
-        COINS_ICONS.put(CoinID.BITCOIN_TEST.getCoinType(), R.drawable.bitcoin_test);
-        COINS_ICONS.put(CoinID.DOGECOIN_MAIN.getCoinType(), R.drawable.dogecoin);
-        COINS_ICONS.put(CoinID.DOGECOIN_TEST.getCoinType(), R.drawable.dogecoin_test);
-        COINS_ICONS.put(CoinID.LITECOIN_MAIN.getCoinType(), R.drawable.litecoin);
-        COINS_ICONS.put(CoinID.LITECOIN_TEST.getCoinType(), R.drawable.litecoin_test);
-        COINS_ICONS.put(CoinID.PEERCOIN_MAIN.getCoinType(), R.drawable.peercoin);
-        COINS_ICONS.put(CoinID.DASH_MAIN.getCoinType(), R.drawable.dash);
-        COINS_ICONS.put(CoinID.REDDCOIN_MAIN.getCoinType(), R.drawable.reddcoin);
-        COINS_ICONS.put(CoinID.NUSHARES_MAIN.getCoinType(), R.drawable.nushares);
-        COINS_ICONS.put(CoinID.NUBITS_MAIN.getCoinType(), R.drawable.nubits);
-        COINS_ICONS.put(CoinID.BLACKCOIN_MAIN.getCoinType(), R.drawable.blackcoin);
-        COINS_ICONS.put(CoinID.MONACOIN_MAIN.getCoinType(), R.drawable.monacoin);
-        COINS_ICONS.put(CoinID.RUBYCOIN_MAIN.getCoinType(), R.drawable.rubycoin);
-        COINS_ICONS.put(CoinID.NAMECOIN_MAIN.getCoinType(), R.drawable.namecoin);
-        COINS_ICONS.put(CoinID.FEATHERCOIN_MAIN.getCoinType(), R.drawable.feathercoin);
+//        COINS_ICONS.put(CoinID.BITCOIN_TEST.getCoinType(), R.drawable.bitcoin_test);
+//        COINS_ICONS.put(CoinID.DOGECOIN_MAIN.getCoinType(), R.drawable.dogecoin);
+//        COINS_ICONS.put(CoinID.DOGECOIN_TEST.getCoinType(), R.drawable.dogecoin_test);
+//        COINS_ICONS.put(CoinID.LITECOIN_MAIN.getCoinType(), R.drawable.litecoin);
+//        COINS_ICONS.put(CoinID.LITECOIN_TEST.getCoinType(), R.drawable.litecoin_test);
+//        COINS_ICONS.put(CoinID.PEERCOIN_MAIN.getCoinType(), R.drawable.peercoin);
+//        COINS_ICONS.put(CoinID.DASH_MAIN.getCoinType(), R.drawable.dash);
+//        COINS_ICONS.put(CoinID.REDDCOIN_MAIN.getCoinType(), R.drawable.reddcoin);
+//        COINS_ICONS.put(CoinID.NUSHARES_MAIN.getCoinType(), R.drawable.nushares);
+//        COINS_ICONS.put(CoinID.NUBITS_MAIN.getCoinType(), R.drawable.nubits);
+//        COINS_ICONS.put(CoinID.BLACKCOIN_MAIN.getCoinType(), R.drawable.blackcoin);
+//        COINS_ICONS.put(CoinID.MONACOIN_MAIN.getCoinType(), R.drawable.monacoin);
+//        COINS_ICONS.put(CoinID.RUBYCOIN_MAIN.getCoinType(), R.drawable.rubycoin);
+//        COINS_ICONS.put(CoinID.NAMECOIN_MAIN.getCoinType(), R.drawable.namecoin);
+//        COINS_ICONS.put(CoinID.FEATHERCOIN_MAIN.getCoinType(), R.drawable.feathercoin);
 //        COINS_ICONS.put(CoinID.URO_MAIN.getCoinType(), R.drawable.uro);
-        COINS_ICONS.put(CoinID.DIGITALCOIN_MAIN.getCoinType(), R.drawable.digitalcoin);
-        COINS_ICONS.put(CoinID.CANNACOIN_MAIN.getCoinType(), R.drawable.cannacoin);
-        COINS_ICONS.put(CoinID.DIGIBYTE_MAIN.getCoinType(), R.drawable.digibyte);
-        COINS_ICONS.put(CoinID.NEOSCOIN_MAIN.getCoinType(), R.drawable.neoscoin);
-        COINS_ICONS.put(CoinID.OKCASH_MAIN.getCoinType(), R.drawable.okcash);
-        COINS_ICONS.put(CoinID.VERTCOIN_MAIN.getCoinType(), R.drawable.vertcoin);
-        COINS_ICONS.put(CoinID.NXT_MAIN.getCoinType(), R.drawable.nxt);
-        COINS_ICONS.put(CoinID.BURST_MAIN.getCoinType(), R.drawable.burst);
-        COINS_ICONS.put(CoinID.JUMBUCKS_MAIN.getCoinType(), R.drawable.jumbucks);
-        COINS_ICONS.put(CoinID.VPNCOIN_MAIN.getCoinType(), R.drawable.vpncoin);
-        COINS_ICONS.put(CoinID.NOVACOIN_MAIN.getCoinType(), R.drawable.novacoin);
-        COINS_ICONS.put(CoinID.CANADAECOIN_MAIN.getCoinType(), R.drawable.canadaecoin);
-        COINS_ICONS.put(CoinID.SHADOWCASH_MAIN.getCoinType(), R.drawable.shadowcash);
-        COINS_ICONS.put(CoinID.PARKBYTE_MAIN.getCoinType(), R.drawable.parkbyte);
-        COINS_ICONS.put(CoinID.VERGE_MAIN.getCoinType(), R.drawable.verge);
-        COINS_ICONS.put(CoinID.CLAMS_MAIN.getCoinType(), R.drawable.clams);
-        COINS_ICONS.put(CoinID.GCR_MAIN.getCoinType(), R.drawable.gcr);
-        COINS_ICONS.put(CoinID.POTCOIN_MAIN.getCoinType(), R.drawable.potcoin);
-        COINS_ICONS.put(CoinID.GULDEN_MAIN.getCoinType(), R.drawable.gulden);
-        COINS_ICONS.put(CoinID.AURORACOIN_MAIN.getCoinType(), R.drawable.auroracoin);
-        COINS_ICONS.put(CoinID.BATACOIN_MAIN.getCoinType(), R.drawable.batacoin);
-        COINS_ICONS.put(CoinID.ASIACOIN_MAIN.getCoinType(), R.drawable.asiacoin);
-        COINS_ICONS.put(CoinID.EGULDEN_MAIN.getCoinType(), R.drawable.egulden);
-        COINS_ICONS.put(CoinID.CLUBCOIN_MAIN.getCoinType(), R.drawable.clubcoin);
-        COINS_ICONS.put(CoinID.RICHCOIN_MAIN.getCoinType(), R.drawable.richcoin);
-        COINS_ICONS.put(CoinID.IXCOIN_MAIN.getCoinType(), R.drawable.ixcoin);
+//        COINS_ICONS.put(CoinID.DIGITALCOIN_MAIN.getCoinType(), R.drawable.digitalcoin);
+//        COINS_ICONS.put(CoinID.CANNACOIN_MAIN.getCoinType(), R.drawable.cannacoin);
+//        COINS_ICONS.put(CoinID.DIGIBYTE_MAIN.getCoinType(), R.drawable.digibyte);
+//        COINS_ICONS.put(CoinID.NEOSCOIN_MAIN.getCoinType(), R.drawable.neoscoin);
+//        COINS_ICONS.put(CoinID.OKCASH_MAIN.getCoinType(), R.drawable.okcash);
+//        COINS_ICONS.put(CoinID.VERTCOIN_MAIN.getCoinType(), R.drawable.vertcoin);
+//        COINS_ICONS.put(CoinID.NXT_MAIN.getCoinType(), R.drawable.nxt);
+//        COINS_ICONS.put(CoinID.BURST_MAIN.getCoinType(), R.drawable.burst);
+//        COINS_ICONS.put(CoinID.JUMBUCKS_MAIN.getCoinType(), R.drawable.jumbucks);
+//        COINS_ICONS.put(CoinID.VPNCOIN_MAIN.getCoinType(), R.drawable.vpncoin);
+//        COINS_ICONS.put(CoinID.NOVACOIN_MAIN.getCoinType(), R.drawable.novacoin);
+//        COINS_ICONS.put(CoinID.CANADAECOIN_MAIN.getCoinType(), R.drawable.canadaecoin);
+//        COINS_ICONS.put(CoinID.SHADOWCASH_MAIN.getCoinType(), R.drawable.shadowcash);
+//        COINS_ICONS.put(CoinID.PARKBYTE_MAIN.getCoinType(), R.drawable.parkbyte);
+//        COINS_ICONS.put(CoinID.VERGE_MAIN.getCoinType(), R.drawable.verge);
+//        COINS_ICONS.put(CoinID.CLAMS_MAIN.getCoinType(), R.drawable.clams);
+//        COINS_ICONS.put(CoinID.GCR_MAIN.getCoinType(), R.drawable.gcr);
+//        COINS_ICONS.put(CoinID.POTCOIN_MAIN.getCoinType(), R.drawable.potcoin);
+//        COINS_ICONS.put(CoinID.GULDEN_MAIN.getCoinType(), R.drawable.gulden);
+//        COINS_ICONS.put(CoinID.AURORACOIN_MAIN.getCoinType(), R.drawable.auroracoin);
+//        COINS_ICONS.put(CoinID.BATACOIN_MAIN.getCoinType(), R.drawable.batacoin);
+//        COINS_ICONS.put(CoinID.ASIACOIN_MAIN.getCoinType(), R.drawable.asiacoin);
+//        COINS_ICONS.put(CoinID.EGULDEN_MAIN.getCoinType(), R.drawable.egulden);
+//        COINS_ICONS.put(CoinID.CLUBCOIN_MAIN.getCoinType(), R.drawable.clubcoin);
+//        COINS_ICONS.put(CoinID.RICHCOIN_MAIN.getCoinType(), R.drawable.richcoin);
+//        COINS_ICONS.put(CoinID.IXCOIN_MAIN.getCoinType(), R.drawable.ixcoin);
         COINS_ICONS.put(CoinID.ONIXCOIN_MAIN.getCoinType(), R.drawable.onixcoin);
         COINS_ICONS.put(CoinID.LKRCOIN_MAIN.getCoinType(), R.drawable.lkrcoin);
         COINS_ICONS.put(CoinID.AREPACOIN_MAIN.getCoinType(), R.drawable.arepacoin);
         COINS_ICONS.put(CoinID.BOLIVARCOIN_MAIN.getCoinType(), R.drawable.bolivarcoin);
+        COINS_ICONS.put(CoinID.RILCOIN_MAIN.getCoinType(), R.drawable.rilcoin);
 
-        COINS_BLOCK_EXPLORERS = new HashMap<CoinType, String>();
+        COINS_BLOCK_EXPLORERS = new HashMap<>();
         COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_MAIN.getCoinType(), "https://blockchain.info/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_TEST.getCoinType(), "https://testnet.blockchain.info/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOIN_MAIN.getCoinType(), "https://chain.so/tx/DOGE/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOIN_TEST.getCoinType(), "https://chain.so/tx/DOGETEST/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_MAIN.getCoinType(), "http://ltc.blockr.io/tx/info/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_TEST.getCoinType(), "https://chain.so/tx/LTCTEST/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.PEERCOIN_MAIN.getCoinType(), "http://ppc.blockr.io/tx/info/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.DASH_MAIN.getCoinType(), "http://explorer.dashpay.io/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.NUSHARES_MAIN.getCoinType(), "http://blockexplorer.nu/transactions/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.NUBITS_MAIN.getCoinType(), "http://blockexplorer.nu/transactions/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.REDDCOIN_MAIN.getCoinType(), "http://live.reddcoin.com/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.BLACKCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/blk/tx.dws?%s.htm");
-        COINS_BLOCK_EXPLORERS.put(CoinID.MONACOIN_MAIN.getCoinType(), "https://bchain.info/MONA/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.RUBYCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/rby/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.NAMECOIN_MAIN.getCoinType(), "https://explorer.namecoin.info/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.FEATHERCOIN_MAIN.getCoinType(), "http://explorer.feathercoin.com/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_TEST.getCoinType(), "https://testnet.blockchain.info/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOIN_MAIN.getCoinType(), "https://chain.so/tx/DOGE/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOIN_TEST.getCoinType(), "https://chain.so/tx/DOGETEST/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_MAIN.getCoinType(), "http://ltc.blockr.io/tx/info/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_TEST.getCoinType(), "https://chain.so/tx/LTCTEST/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.PEERCOIN_MAIN.getCoinType(), "http://ppc.blockr.io/tx/info/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.DASH_MAIN.getCoinType(), "http://explorer.dashpay.io/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.NUSHARES_MAIN.getCoinType(), "http://blockexplorer.nu/transactions/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.NUBITS_MAIN.getCoinType(), "http://blockexplorer.nu/transactions/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.REDDCOIN_MAIN.getCoinType(), "http://live.reddcoin.com/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.BLACKCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/blk/tx.dws?%s.htm");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.MONACOIN_MAIN.getCoinType(), "https://bchain.info/MONA/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.RUBYCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/rby/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.NAMECOIN_MAIN.getCoinType(), "https://explorer.namecoin.info/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.FEATHERCOIN_MAIN.getCoinType(), "http://explorer.feathercoin.com/tx/%s");
 //        COINS_BLOCK_EXPLORERS.put(CoinID.URO_MAIN.getCoinType(), "https://chainz.cryptoid.info/uro/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.DIGITALCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/dgc/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.CANNACOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ccn/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.DIGIBYTE_MAIN.getCoinType(), "https://digiexplorer.info/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.NEOSCOIN_MAIN.getCoinType(), "http://explorer.infernopool.com/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.OKCASH_MAIN.getCoinType(), "https://chainz.cryptoid.info/ok/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.VERTCOIN_MAIN.getCoinType(), "https://bitinfocharts.com/vertcoin/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.JUMBUCKS_MAIN.getCoinType(), "http://explorer.getjumbucks.com/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.VPNCOIN_MAIN.getCoinType(), "https://blockexperts.com/vpn/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.NOVACOIN_MAIN.getCoinType(), "http://explorer.novaco.in/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.CANADAECOIN_MAIN.getCoinType(), "http://explorer.canadaecoin.ca/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.SHADOWCASH_MAIN.getCoinType(), "http://shadowchain.info/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.PARKBYTE_MAIN.getCoinType(), "https://chainz.cryptoid.info/pkb/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.VERGE_MAIN.getCoinType(), "http://blockexperts.com/xvg/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.CLAMS_MAIN.getCoinType(), "http://khashier.com/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.GCR_MAIN.getCoinType(), "https://chainz.cryptoid.info/gcr/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.POTCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/pot/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.GULDEN_MAIN.getCoinType(), "https://explorer.gulden.com/#/transaction/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.AURORACOIN_MAIN.getCoinType(), "http://insight.auroracoin.io/tx/%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.BATACOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/bta/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.ASIACOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ac/tx.dws?%s.htm");
-        COINS_BLOCK_EXPLORERS.put(CoinID.EGULDEN_MAIN.getCoinType(), "https://chainz.cryptoid.info/efl/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.RICHCOIN_MAIN.getCoinType(), "https://explorer.richcoin.us/transaction?transaction=%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.IXCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ixc/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.DIGITALCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/dgc/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.CANNACOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ccn/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.DIGIBYTE_MAIN.getCoinType(), "https://digiexplorer.info/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.NEOSCOIN_MAIN.getCoinType(), "http://explorer.infernopool.com/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.OKCASH_MAIN.getCoinType(), "https://chainz.cryptoid.info/ok/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.VERTCOIN_MAIN.getCoinType(), "https://bitinfocharts.com/vertcoin/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.JUMBUCKS_MAIN.getCoinType(), "http://explorer.getjumbucks.com/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.VPNCOIN_MAIN.getCoinType(), "https://blockexperts.com/vpn/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.NOVACOIN_MAIN.getCoinType(), "http://explorer.novaco.in/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.CANADAECOIN_MAIN.getCoinType(), "http://explorer.canadaecoin.ca/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.SHADOWCASH_MAIN.getCoinType(), "http://shadowchain.info/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.PARKBYTE_MAIN.getCoinType(), "https://chainz.cryptoid.info/pkb/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.VERGE_MAIN.getCoinType(), "http://blockexperts.com/xvg/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.CLAMS_MAIN.getCoinType(), "http://khashier.com/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.GCR_MAIN.getCoinType(), "https://chainz.cryptoid.info/gcr/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.POTCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/pot/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.GULDEN_MAIN.getCoinType(), "https://explorer.gulden.com/#/transaction/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.AURORACOIN_MAIN.getCoinType(), "http://insight.auroracoin.io/tx/%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.BATACOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/bta/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.ASIACOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ac/tx.dws?%s.htm");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.EGULDEN_MAIN.getCoinType(), "https://chainz.cryptoid.info/efl/tx.dws?%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.RICHCOIN_MAIN.getCoinType(), "https://explorer.richcoin.us/transaction?transaction=%s");
+//        COINS_BLOCK_EXPLORERS.put(CoinID.IXCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ixc/tx.dws?%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.ONIXCOIN_MAIN.getCoinType(), "https://onixcoin.info/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.LKRCOIN_MAIN.getCoinType(), "http://explorer.lkrcoin.io/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.AREPACOIN_MAIN.getCoinType(), "http://104.223.87.244/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.BOLIVARCOIN_MAIN.getCoinType(), "http://159.65.203.140:3001/tx/%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.RILCOIN_MAIN.getCoinType(), "http://explorador.rilcoincrypto.org:3001/tx/%s");
+
     }
 
     public static final CoinType DEFAULT_COIN = BitcoinMain.get();
     public static final List<CoinType> DEFAULT_COINS = ImmutableList.of((CoinType) BitcoinMain.get());
     public static final ArrayList<String> DEFAULT_TEST_COIN_IDS = Lists.newArrayList(
-            BitcoinTest.get().getId()
+            //BitcoinTest.get().getId()
             //LitecoinTest.get().getId(),
             //DogecoinTest.get().getId()
     );
@@ -347,48 +368,51 @@ public class Constants {
             BitcoinMain.get(),
             ArepacoinMain.get(),
             BolivarcoinMain.get(),
-            AsiacoinMain.get(),
-            AuroracoinMain.get(),
-            BatacoinMain.get(),
-            BlackcoinMain.get(),
-//            BurstMain.get(),
-            CanadaeCoinMain.get(),
-            CannacoinMain.get(),
-            ClamsMain.get(),
-            ClubcoinMain.get(),
-            DashMain.get(),
+            LkrcoinMain.get(),
+            OnixcoinMain.get(),
+            RilcoinMain.get()
+
+
+            //AsiacoinMain.get(),
+            //AuroracoinMain.get(),
+            //BatacoinMain.get(),
+            //BlackcoinMain.get(),
+            //BurstMain.get(),
+            //CanadaeCoinMain.get(),
+            //CannacoinMain.get(),
+            //ClamsMain.get(),
+            //ClubcoinMain.get(),
+            //DashMain.get(),
             //DigibyteMain.get(),
             //DigitalcoinMain.get(),
-            DogecoinMain.get(),
-            EguldenMain.get(),
-            FeathercoinMain.get(),
-            GcrMain.get(),
-            GuldenMain.get(),
-            IxcoinMain.get(),
-            JumbucksMain.get(),
-            LitecoinMain.get(),
-            LkrcoinMain.get(),
-            MonacoinMain.get(),
-            NamecoinMain.get(),
-            NeoscoinMain.get(),
-            NovacoinMain.get(),
-            NuBitsMain.get(),
-            NuSharesMain.get(),
-//            NxtMain.get(),
-            OKCashMain.get(),
-            OnixcoinMain.get(),
+            //DogecoinMain.get(),
+            //EguldenMain.get(),
+            //FeathercoinMain.get(),
+            //GcrMain.get(),
+            //GuldenMain.get(),
+            //IxcoinMain.get(),
+            //JumbucksMain.get(),
+            //LitecoinMain.get(),
+            //MonacoinMain.get(),
+            //NamecoinMain.get(),
+            //NeoscoinMain.get(),
+            //NovacoinMain.get(),
+            //NuBitsMain.get(),
+            //NuSharesMain.get(),
+            //NxtMain.get(),
+            //OKCashMain.get(),
             //ParkbyteMain.get(),
-            PeercoinMain.get(),
-            PotcoinMain.get(),
-            ReddcoinMain.get(),
-            RichcoinMain.get(),
-            RubycoinMain.get(),
-            ShadowCashMain.get(),
-            VergeMain.get(),
-            VertcoinMain.get(),
-            VpncoinMain.get(),
-            BitcoinTest.get(),
-            LitecoinTest.get(),
-            DogecoinTest.get()
+            //PeercoinMain.get(),
+            //PotcoinMain.get(),
+            //ReddcoinMain.get(),
+            //RichcoinMain.get(),
+            //RubycoinMain.get(),
+            //ShadowCashMain.get(),
+            //VergeMain.get(),
+            //VertcoinMain.get(),
+            //VpncoinMain.get(),
+            //BitcoinTest.get(),
+            //LitecoinTest.get(),
+            //DogecoinTest.get()
     );
 }
