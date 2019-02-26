@@ -13,7 +13,7 @@ public class LkrcoinMain extends PeerFamily {
         this.p2shHeader = 85;
         this.acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
         this.spendableCoinbaseDepth = 500;
-        this.dumpedPrivateKeyHeader = 128 + addressHeader;;
+        this.dumpedPrivateKeyHeader = 128 + addressHeader;
         this.name = "Lkrcoin";
         this.symbol = "LKR";
         this.uriScheme = "lkrcoin";

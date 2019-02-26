@@ -18,7 +18,7 @@ public class OnixcoinMain extends BitFamily {
         this.name = "Onixcoin";
         this.symbol = "ONX";
         this.uriScheme = "onixcoin";
-        this.bip44Index = 99; // El que se debe usar es 174, ver https://github.com/satoshilabs/slips
+        this.bip44Index = 99; // FIXME Change by 174 https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         this.unitExponent = 8;
         this.feeValue = value(100000);
         this.minNonDust = value(1);
