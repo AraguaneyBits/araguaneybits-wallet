@@ -620,6 +620,10 @@ final public class WalletActivity extends BaseWalletActivity implements
         } else if (id == R.id.action_about) {
             startActivity(new Intent(WalletActivity.this, AboutActivity.class));
             return true;
+        } else if (id == R.id.action_export_keys) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://iancoleman.io/bip39/"));
+            startActivity(browserIntent);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
