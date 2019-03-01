@@ -14,11 +14,11 @@ public class OnixcoinMain extends BitFamily {
         this.p2shHeader = 5;
         this.acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
         this.spendableCoinbaseDepth = 100;
-        this.dumpedPrivateKeyHeader = 128 + addressHeader;;
+        this.dumpedPrivateKeyHeader = 128 + addressHeader;
         this.name = "Onixcoin";
         this.symbol = "ONX";
         this.uriScheme = "onixcoin";
-        this.bip44Index = 99; // FIXME Change by 174 https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+        this.bip44Index = 174;
         this.unitExponent = 8;
         this.feeValue = value(100000);
         this.minNonDust = value(1);
