@@ -69,6 +69,7 @@ public enum CoinID {
     AREPACOIN_MAIN(ArepacoinMain.get()),
     BOLIVARCOIN_MAIN(BolivarcoinMain.get()),
     RILCOIN_MAIN(RilcoinMain.get()),
+    ANDESCOIN_MAIN(AndescoinMain.get()),
     ;
 
     private static List<CoinType> types;

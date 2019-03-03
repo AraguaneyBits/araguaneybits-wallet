@@ -2,6 +2,7 @@ package com.araguaneybits.wallet;
 
 import android.text.format.DateUtils;
 
+import com.araguaneybits.core.coins.AndescoinMain;
 import com.araguaneybits.core.coins.ArepacoinMain;
 import com.araguaneybits.core.coins.AsiacoinMain;
 import com.araguaneybits.core.coins.AuroracoinMain;
@@ -248,8 +249,12 @@ public class Constants {
             new CoinAddress(RilcoinMain.get(),
                     new ServerAddress("217.182.224.87", 50001),
                     new ServerAddress("217.182.224.87", 50001),
-                    new ServerAddress("ril.araguaneybits.com", 70001),
-                    new ServerAddress("ril.araguaneybits.com", 70002)
+                    new ServerAddress("ril.araguaneybits.com", 31001),
+                    new ServerAddress("ril.araguaneybits.com", 31002)
+            ),
+            new CoinAddress(AndescoinMain.get(),
+                    new ServerAddress("andes.araguaneybits.com", 32001),
+                    new ServerAddress("andes.araguaneybits.com", 32002)
             )
 
     );
@@ -306,6 +311,7 @@ public class Constants {
         COINS_ICONS.put(CoinID.AREPACOIN_MAIN.getCoinType(), R.drawable.arepacoin);
         COINS_ICONS.put(CoinID.BOLIVARCOIN_MAIN.getCoinType(), R.drawable.bolivarcoin);
         COINS_ICONS.put(CoinID.RILCOIN_MAIN.getCoinType(), R.drawable.rilcoin);
+        COINS_ICONS.put(CoinID.ANDESCOIN_MAIN.getCoinType(), R.drawable.andescoin);
 
         COINS_BLOCK_EXPLORERS = new HashMap<>();
         COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_MAIN.getCoinType(), "https://blockchain.info/tx/%s");
@@ -353,6 +359,7 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.AREPACOIN_MAIN.getCoinType(), "http://104.223.87.244/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.BOLIVARCOIN_MAIN.getCoinType(), "http://159.65.203.140:3001/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.RILCOIN_MAIN.getCoinType(), "http://explorador.rilcoincrypto.org:3001/tx/%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.ANDESCOIN_MAIN.getCoinType(), "http://explo.andes-coin.com/tx/%s");
 
     }
 
@@ -366,12 +373,13 @@ public class Constants {
 
     public static final List<CoinType> SUPPORTED_COINS = ImmutableList.of(
             BitcoinMain.get(),
+
+            AndescoinMain.get(),
             ArepacoinMain.get(),
             BolivarcoinMain.get(),
             LkrcoinMain.get(),
             OnixcoinMain.get(),
             RilcoinMain.get()
-
 
             //AsiacoinMain.get(),
             //AuroracoinMain.get(),
